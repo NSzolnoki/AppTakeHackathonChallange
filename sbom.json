@@ -3,9 +3,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "version": 1,
-  "serialNumber": "urn:uuid:02b9b95d-6ced-4881-9cb5-6be9d5162e2a",
+  "serialNumber": "urn:uuid:3fcd511f-4d6c-4bec-9253-c96a56abf036",
   "metadata": {
-    "timestamp": "2026-09-17T08:07:44.426Z",
+    "timestamp": "2026-09-17T09:05:20.773Z",
     "tools": {
       "components": [
         {
@@ -153,17 +153,25 @@
     {
       "type": "library",
       "name": "body-parser",
-      "version": "1.18.3",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|body-parser@1.18.3",
-      "purl": "pkg:npm/body-parser@1.18.3",
+      "version": "1.20.3",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|body-parser@1.20.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/body-parser@1.20.3",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/body-parser/-/body-parser-1.18.3.tgz",
+          "url": "https://registry.npmjs.org/body-parser/-/body-parser-1.20.3.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "5b292198ffdd553b3a0f20ded0592b956955c8b4"
+              "alg": "SHA-512",
+              "content": "eeb0310728d432a437fdb1c9cbb0fa3865efc7f30c73822a067fd7d1f70cd5051c008b6966b0446215867a6fadcd71fdd1cf86d35ca931c60904ef58df4db4de"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -174,22 +182,100 @@
           "name": "cdx:npm:package:path",
           "value": "node_modules/body-parser"
         }
+      ],
+      "components": [
+        {
+          "type": "library",
+          "name": "on-finished",
+          "version": "2.4.1",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|body-parser@1.20.3|on-finished@2.4.1",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/on-finished@2.4.1",
+          "externalReferences": [
+            {
+              "url": "https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz",
+              "type": "distribution",
+              "hashes": [
+                {
+                  "alg": "SHA-512",
+                  "content": "a15973920dc4340842936cddbfb209c1dfd0503e33d91c51c2991c198f29b0255c09864dab8c189d55802c733e6ebb6e26378f5a2605fc2966b83afc0a1e7e92"
+                }
+              ],
+              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+            }
+          ],
+          "properties": [
+            {
+              "name": "cdx:npm:package:path",
+              "value": "node_modules/body-parser/node_modules/on-finished"
+            }
+          ]
+        },
+        {
+          "type": "library",
+          "name": "qs",
+          "version": "6.13.0",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|body-parser@1.20.3|qs@6.13.0",
+          "licenses": [
+            {
+              "license": {
+                "id": "BSD-3-Clause",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/qs@6.13.0",
+          "externalReferences": [
+            {
+              "url": "https://registry.npmjs.org/qs/-/qs-6.13.0.tgz",
+              "type": "distribution",
+              "hashes": [
+                {
+                  "alg": "SHA-512",
+                  "content": "fb7f2a23d48eafcb5f67842624da65314c6a8db7bb2cabef66059d13104e99df9e8194ed8cb07aec6bb41d15f7bbf5ceabb514d8dc7a9ec8ef4b5e99f6ec1fa6"
+                }
+              ],
+              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+            }
+          ],
+          "properties": [
+            {
+              "name": "cdx:npm:package:path",
+              "value": "node_modules/body-parser/node_modules/qs"
+            }
+          ]
+        }
       ]
     },
     {
       "type": "library",
       "name": "consolidate",
-      "version": "0.14.5",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|consolidate@0.14.5",
-      "purl": "pkg:npm/consolidate@0.14.5",
+      "version": "1.0.4",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|consolidate@1.0.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/consolidate@1.0.4",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/consolidate/-/consolidate-0.14.5.tgz",
+          "url": "https://registry.npmjs.org/consolidate/-/consolidate-1.0.4.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "5a25047bc76f73072667c8cb52c989888f494c63"
+              "alg": "SHA-512",
+              "content": "46e677c67a840ecc62c1aa0892a55e78ade083dab1c3bf982985f6b4a84bb357ae91528c812af855823789816c4478b84e5a0760396e82bcf792f923b379f29c"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -205,17 +291,25 @@
     {
       "type": "library",
       "name": "csurf",
-      "version": "1.9.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|csurf@1.9.0",
-      "purl": "pkg:npm/csurf@1.9.0",
+      "version": "1.11.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|csurf@1.11.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/csurf@1.11.0",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/csurf/-/csurf-1.9.0.tgz",
+          "url": "https://registry.npmjs.org/csurf/-/csurf-1.11.0.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "49d2c6925ffcec7b7de559597c153fa533364133"
+              "alg": "SHA-512",
+              "content": "502b5e872104c4a4f1822bbc507746bc78f8b67a44fd072db9ed371a2ab980f80c43d720fdc8a87796e5650e5ae2e0847a73508f1c86bb3ca02dd29499e7bf6d"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -231,17 +325,25 @@
         {
           "type": "library",
           "name": "http-errors",
-          "version": "1.5.1",
-          "bom-ref": "owasp-nodejs-goat@1.3.0|csurf@1.9.0|http-errors@1.5.1",
-          "purl": "pkg:npm/http-errors@1.5.1",
+          "version": "1.7.3",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|csurf@1.11.0|http-errors@1.7.3",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/http-errors@1.7.3",
           "externalReferences": [
             {
-              "url": "https://registry.npmjs.org/http-errors/-/http-errors-1.5.1.tgz",
+              "url": "https://registry.npmjs.org/http-errors/-/http-errors-1.7.3.tgz",
               "type": "distribution",
               "hashes": [
                 {
-                  "alg": "SHA-1",
-                  "content": "788c0d2c1de2c81b9e6e8c01843b6b97eb920750"
+                  "alg": "SHA-512",
+                  "content": "6534d7d0c5abb10d9902103571e8c0c032f2705b1dec8ee756d9e44f73a5d1aaa875a296fb4093643435b81bf9c21a6d0a773c7bc1de45127146cd249a6fd07f"
                 }
               ],
               "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -256,18 +358,60 @@
         },
         {
           "type": "library",
-          "name": "setprototypeof",
-          "version": "1.0.2",
-          "bom-ref": "owasp-nodejs-goat@1.3.0|csurf@1.9.0|setprototypeof@1.0.2",
-          "purl": "pkg:npm/setprototypeof@1.0.2",
+          "name": "depd",
+          "version": "1.1.2",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|csurf@1.11.0|depd@1.1.2",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/depd@1.1.2",
           "externalReferences": [
             {
-              "url": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.0.2.tgz",
+              "url": "https://registry.npmjs.org/depd/-/depd-1.1.2.tgz",
               "type": "distribution",
               "hashes": [
                 {
-                  "alg": "SHA-1",
-                  "content": "81a552141ec104b88e89ce383103ad5c66564d08"
+                  "alg": "SHA-512",
+                  "content": "ede98f4e5e83a68e894573978cb471724f8594b457e7ce3b70b2849f4d0f2c081cde0da14d9660afe7b8736bfa4294a62de14fde7e72528edfb7a6af04aff98d"
+                }
+              ],
+              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+            }
+          ],
+          "properties": [
+            {
+              "name": "cdx:npm:package:path",
+              "value": "node_modules/csurf/node_modules/depd"
+            }
+          ]
+        },
+        {
+          "type": "library",
+          "name": "setprototypeof",
+          "version": "1.1.1",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|csurf@1.11.0|setprototypeof@1.1.1",
+          "licenses": [
+            {
+              "license": {
+                "id": "ISC",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/setprototypeof@1.1.1",
+          "externalReferences": [
+            {
+              "url": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.1.1.tgz",
+              "type": "distribution",
+              "hashes": [
+                {
+                  "alg": "SHA-512",
+                  "content": "26f74059f6d778819a67d7082e9dfc1e7b594854a8de65a0eb119c249b1df9de1a44c3aa6ae6a0d42eb77497c3c3b39a318c046c730ec4467596a55160fd8e03"
                 }
               ],
               "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -277,6 +421,40 @@
             {
               "name": "cdx:npm:package:path",
               "value": "node_modules/csurf/node_modules/setprototypeof"
+            }
+          ]
+        },
+        {
+          "type": "library",
+          "name": "toidentifier",
+          "version": "1.0.0",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|csurf@1.11.0|toidentifier@1.0.0",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/toidentifier@1.0.0",
+          "externalReferences": [
+            {
+              "url": "https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.0.tgz",
+              "type": "distribution",
+              "hashes": [
+                {
+                  "alg": "SHA-512",
+                  "content": "c9a387fcf93f5448415964e5848faa5f10c55e57a30c67108a9325cb175af67b61ba56b12d950d714a85c68929d2f7189efb5e2659f914d40346bc63dd871b57"
+                }
+              ],
+              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+            }
+          ],
+          "properties": [
+            {
+              "name": "cdx:npm:package:path",
+              "value": "node_modules/csurf/node_modules/toidentifier"
             }
           ]
         }
@@ -311,17 +489,25 @@
     {
       "type": "library",
       "name": "express-session",
-      "version": "1.15.6",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|express-session@1.15.6",
-      "purl": "pkg:npm/express-session@1.15.6",
+      "version": "1.18.1",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|express-session@1.18.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/express-session@1.18.1",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/express-session/-/express-session-1.15.6.tgz",
+          "url": "https://registry.npmjs.org/express-session/-/express-session-1.18.1.tgz",
           "type": "distribution",
           "hashes": [
             {
               "alg": "SHA-512",
-              "content": "af49eb1d3098b4032b170674901cd91176b5bed3d5af0d1d2af192aca3f875a870050d41269176ff2d4fa78b020ffd24bf1578cd979c972bdf9b0d01e1130940"
+              "content": "6b99ad4ea11a66f0422fd03d6aa92bb5fcfedd230384e5549e369f8e8facec0f53c64abe4955f60cbbd2a7566bbf8b825dade53122b7be25a787d1a0d3b3c150"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -336,18 +522,26 @@
       "components": [
         {
           "type": "library",
-          "name": "uid-safe",
-          "version": "2.1.5",
-          "bom-ref": "owasp-nodejs-goat@1.3.0|express-session@1.15.6|uid-safe@2.1.5",
-          "purl": "pkg:npm/uid-safe@2.1.5",
+          "name": "cookie-signature",
+          "version": "1.0.7",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|express-session@1.18.1|cookie-signature@1.0.7",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/cookie-signature@1.0.7",
           "externalReferences": [
             {
-              "url": "https://registry.npmjs.org/uid-safe/-/uid-safe-2.1.5.tgz",
+              "url": "https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.7.tgz",
               "type": "distribution",
               "hashes": [
                 {
-                  "alg": "SHA-1",
-                  "content": "2b3d5c7240e8fc2e58f8aa269e5ee49c0857bd3a"
+                  "alg": "SHA-512",
+                  "content": "35775873774baf8ee9064a54087b4a4b020e4172d59fc75912ecb06e808e258fe8b00d301522e549ac2bdca37ca97244c97eba15c38d4c7f0422556e2b4cb214"
                 }
               ],
               "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -356,7 +550,75 @@
           "properties": [
             {
               "name": "cdx:npm:package:path",
-              "value": "node_modules/express-session/node_modules/uid-safe"
+              "value": "node_modules/express-session/node_modules/cookie-signature"
+            }
+          ]
+        },
+        {
+          "type": "library",
+          "name": "cookie",
+          "version": "0.7.2",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|express-session@1.18.1|cookie@0.7.2",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/cookie@0.7.2",
+          "externalReferences": [
+            {
+              "url": "https://registry.npmjs.org/cookie/-/cookie-0.7.2.tgz",
+              "type": "distribution",
+              "hashes": [
+                {
+                  "alg": "SHA-512",
+                  "content": "ca48b95e72ae7fbe74979d2e193965b7a90a20b6389d0d5e34841ab685c40726797568272aa6e7aa64eb044e41e0dee5acc24a436cad58c8933b6a34bfa130ff"
+                }
+              ],
+              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+            }
+          ],
+          "properties": [
+            {
+              "name": "cdx:npm:package:path",
+              "value": "node_modules/express-session/node_modules/cookie"
+            }
+          ]
+        },
+        {
+          "type": "library",
+          "name": "safe-buffer",
+          "version": "5.2.1",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|express-session@1.18.1|safe-buffer@5.2.1",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/safe-buffer@5.2.1",
+          "externalReferences": [
+            {
+              "url": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz",
+              "type": "distribution",
+              "hashes": [
+                {
+                  "alg": "SHA-512",
+                  "content": "ae9dd2a34eca71d9a629b1af81a37141226bedb1954959394bd12ad45fa9a5b468ef4f9879a0f1930e4377c34f37e183e9b8e7626d95b8fb825e6a6e62f9825d"
+                }
+              ],
+              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+            }
+          ],
+          "properties": [
+            {
+              "name": "cdx:npm:package:path",
+              "value": "node_modules/express-session/node_modules/safe-buffer"
             }
           ]
         }
@@ -365,17 +627,25 @@
     {
       "type": "library",
       "name": "express",
-      "version": "4.16.4",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|express@4.16.4",
-      "purl": "pkg:npm/express@4.16.4",
+      "version": "4.21.2",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|express@4.21.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/express@4.21.2",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/express/-/express-4.16.4.tgz",
+          "url": "https://registry.npmjs.org/express/-/express-4.21.2.tgz",
           "type": "distribution",
           "hashes": [
             {
               "alg": "SHA-512",
-              "content": "8f5d94bb26f814caddfea4009bab821c090fb4ef050d34496410dde43d8a38bd9e2dacf5c9435d501fcd388caad22538ab87056abb140ab9c50cf05c9e4b2e3a"
+              "content": "dbc1ea80c6409a28750b3b7d9f2eeaafa7a4daa75d17815c95b333c21091101e8e15f1fead7027b8d0b0a35ff016faed6e0b100dbe2449b5fd75ef6515bad79c"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -390,18 +660,162 @@
       "components": [
         {
           "type": "library",
-          "name": "statuses",
-          "version": "1.4.0",
-          "bom-ref": "owasp-nodejs-goat@1.3.0|express@4.16.4|statuses@1.4.0",
-          "purl": "pkg:npm/statuses@1.4.0",
+          "name": "cookie",
+          "version": "0.7.1",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|express@4.21.2|cookie@0.7.1",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/cookie@0.7.1",
           "externalReferences": [
             {
-              "url": "https://registry.npmjs.org/statuses/-/statuses-1.4.0.tgz",
+              "url": "https://registry.npmjs.org/cookie/-/cookie-0.7.1.tgz",
               "type": "distribution",
               "hashes": [
                 {
                   "alg": "SHA-512",
-                  "content": "ce1482b6df2fd8d0eb4653d0a4236dc3f85e64bb5f503ab104cd6e76a8a46ff1db939d8b2b89d04b0af5d2eefb8a8a425b92ecc87a6e5d2d069c4738f262de7b"
+                  "content": "e839c89e9c7b489d802b7f824d413f64cd2f59351ba1909e831842db1888c9d1d1f6336e4c001206b7c4a4786218e670fe75f9d5b1ede98425f23b06a38cbfd3"
+                }
+              ],
+              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+            }
+          ],
+          "properties": [
+            {
+              "name": "cdx:npm:package:path",
+              "value": "node_modules/express/node_modules/cookie"
+            }
+          ]
+        },
+        {
+          "type": "library",
+          "name": "on-finished",
+          "version": "2.4.1",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|express@4.21.2|on-finished@2.4.1",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/on-finished@2.4.1",
+          "externalReferences": [
+            {
+              "url": "https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz",
+              "type": "distribution",
+              "hashes": [
+                {
+                  "alg": "SHA-512",
+                  "content": "a15973920dc4340842936cddbfb209c1dfd0503e33d91c51c2991c198f29b0255c09864dab8c189d55802c733e6ebb6e26378f5a2605fc2966b83afc0a1e7e92"
+                }
+              ],
+              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+            }
+          ],
+          "properties": [
+            {
+              "name": "cdx:npm:package:path",
+              "value": "node_modules/express/node_modules/on-finished"
+            }
+          ]
+        },
+        {
+          "type": "library",
+          "name": "qs",
+          "version": "6.13.0",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|express@4.21.2|qs@6.13.0",
+          "licenses": [
+            {
+              "license": {
+                "id": "BSD-3-Clause",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/qs@6.13.0",
+          "externalReferences": [
+            {
+              "url": "https://registry.npmjs.org/qs/-/qs-6.13.0.tgz",
+              "type": "distribution",
+              "hashes": [
+                {
+                  "alg": "SHA-512",
+                  "content": "fb7f2a23d48eafcb5f67842624da65314c6a8db7bb2cabef66059d13104e99df9e8194ed8cb07aec6bb41d15f7bbf5ceabb514d8dc7a9ec8ef4b5e99f6ec1fa6"
+                }
+              ],
+              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+            }
+          ],
+          "properties": [
+            {
+              "name": "cdx:npm:package:path",
+              "value": "node_modules/express/node_modules/qs"
+            }
+          ]
+        },
+        {
+          "type": "library",
+          "name": "safe-buffer",
+          "version": "5.2.1",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|express@4.21.2|safe-buffer@5.2.1",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/safe-buffer@5.2.1",
+          "externalReferences": [
+            {
+              "url": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz",
+              "type": "distribution",
+              "hashes": [
+                {
+                  "alg": "SHA-512",
+                  "content": "ae9dd2a34eca71d9a629b1af81a37141226bedb1954959394bd12ad45fa9a5b468ef4f9879a0f1930e4377c34f37e183e9b8e7626d95b8fb825e6a6e62f9825d"
+                }
+              ],
+              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+            }
+          ],
+          "properties": [
+            {
+              "name": "cdx:npm:package:path",
+              "value": "node_modules/express/node_modules/safe-buffer"
+            }
+          ]
+        },
+        {
+          "type": "library",
+          "name": "statuses",
+          "version": "2.0.1",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|express@4.21.2|statuses@2.0.1",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/statuses@2.0.1",
+          "externalReferences": [
+            {
+              "url": "https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz",
+              "type": "distribution",
+              "hashes": [
+                {
+                  "alg": "SHA-512",
+                  "content": "470340f59ffb3eb2b4eab60b23314c95a17e97bde2c29ceca9120581b30b6d370b0fa70e6a8f364da59e7cf5d0bc1d9f382e008ee612127752ecdfe64c26e475"
                 }
               ],
               "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -499,17 +913,25 @@
     {
       "type": "library",
       "name": "helmet",
-      "version": "2.3.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|helmet@2.3.0",
-      "purl": "pkg:npm/helmet@2.3.0",
+      "version": "4.6.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|helmet@4.6.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/helmet@4.6.0",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/helmet/-/helmet-2.3.0.tgz",
+          "url": "https://registry.npmjs.org/helmet/-/helmet-4.6.0.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "d655c85b55b0a3bf722a4c2c66e48b78b4161b91"
+              "alg": "SHA-512",
+              "content": "1d5a802ca66547de513a4ae77ac7616db649162feb2154a836ae9fde303ff6ee8c21b4ec3e1df16708a18de239f833bfdac395e87307a285dc10ebb0b241e94e"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -525,17 +947,25 @@
     {
       "type": "library",
       "name": "marked",
-      "version": "0.3.5",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|marked@0.3.5",
-      "purl": "pkg:npm/marked@0.3.5",
+      "version": "4.3.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|marked@4.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/marked@4.3.0",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/marked/-/marked-0.3.5.tgz",
+          "url": "https://registry.npmjs.org/marked/-/marked-4.3.0.tgz",
           "type": "distribution",
           "hashes": [
             {
               "alg": "SHA-512",
-              "content": "0b664489467183bcf187db7c0b7abac96e16b9c58df8e62488057f3391b1bdfc18acac650dcb99ef87479a846823e47cd0e6bf16d1e5d70f064f5ddea676e2f9"
+              "content": "3d1b1a886f386caf8032fc73884fe5085b2cf23b978cd696cd56cde6d5c09b85e379a4bd3401e1a29f8f8d0c73d80f61f10e0cff11a6ccff2fa8dc32e8978ad0"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -657,17 +1087,25 @@
     {
       "type": "library",
       "name": "needle",
-      "version": "2.2.4",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|needle@2.2.4",
-      "purl": "pkg:npm/needle@2.2.4",
+      "version": "3.3.1",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|needle@3.3.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/needle@3.3.1",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/needle/-/needle-2.2.4.tgz",
+          "url": "https://registry.npmjs.org/needle/-/needle-3.3.1.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "51931bff82533b1928b7d1d69e01f1b00ffd2a4e"
+              "alg": "SHA-512",
+              "content": "ea4d1850bbe1a70f91a0b36240244a3a5d3d46fd5d3cbafc8479d58c7a9da252b00eb74dca4f879abb618b894818f3f3debdfd74bc7486c179b38d2c67752ce1"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -677,6 +1115,42 @@
         {
           "name": "cdx:npm:package:path",
           "value": "node_modules/needle"
+        }
+      ],
+      "components": [
+        {
+          "type": "library",
+          "name": "iconv-lite",
+          "version": "0.6.3",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|needle@3.3.1|iconv-lite@0.6.3",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/iconv-lite@0.6.3",
+          "externalReferences": [
+            {
+              "url": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz",
+              "type": "distribution",
+              "hashes": [
+                {
+                  "alg": "SHA-512",
+                  "content": "e1f0a4efdc2c84c773329dab1f4eaa5ab244e22a25a8b842507f8e8ae22053ef91074fbde0d9432fcd5ab4eec65f9e6e50ab9ea34b711cdb6f13223a0fb59d33"
+                }
+              ],
+              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+            }
+          ],
+          "properties": [
+            {
+              "name": "cdx:npm:package:path",
+              "value": "node_modules/needle/node_modules/iconv-lite"
+            }
+          ]
         }
       ]
     },
@@ -711,6 +1185,14 @@
       "name": "serve-favicon",
       "version": "2.5.0",
       "bom-ref": "owasp-nodejs-goat@1.3.0|serve-favicon@2.5.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
       "purl": "pkg:npm/serve-favicon@2.5.0",
       "externalReferences": [
         {
@@ -718,8 +1200,8 @@
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "935d240cdfe0f5805307fdfe967d88942a2cbcf0"
+              "alg": "SHA-512",
+              "content": "14c5b646fa8daf4df1f82d16c53caeeac3afdb5a0e8e4ab98fcb63aae59c7306ba49c372185386255a6e4b53664d51810074b4ef19d22a8b607f67a14267fd88"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -849,17 +1331,25 @@
     {
       "type": "library",
       "name": "bytes",
-      "version": "3.0.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|bytes@3.0.0",
-      "purl": "pkg:npm/bytes@3.0.0",
+      "version": "3.1.2",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|bytes@3.1.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/bytes@3.1.2",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/bytes/-/bytes-3.0.0.tgz",
+          "url": "https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "d32815404d689699f85a4ea4fa8755dd13a96048"
+              "alg": "SHA-512",
+              "content": "fcd7fb4f2cd3c7a4b7c9124e6ce015efde7aafc72bdbe3a3f000b976df3048fdc1400a1e5f9f0da07c8253c3fccc690d5d2b634d28ba7f33ba174a4175c61b12"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -875,17 +1365,25 @@
     {
       "type": "library",
       "name": "content-type",
-      "version": "1.0.4",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|content-type@1.0.4",
-      "purl": "pkg:npm/content-type@1.0.4",
+      "version": "1.0.5",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|content-type@1.0.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/content-type@1.0.5",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/content-type/-/content-type-1.0.4.tgz",
+          "url": "https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz",
           "type": "distribution",
           "hashes": [
             {
               "alg": "SHA-512",
-              "content": "8483f71043ecf2d07d013d4bf8d52ab70380a6ce269366686fcf4c5973078c75a0f668a517f8f8a2c9e740b5c108114193fb6f206fed51cf663942623c184f5c"
+              "content": "9d38ea7dc045122a4a7570afe180d05827e670b64a9bcd65745d29028a53bf2ac51956dc47a3ff54001de46ecdfb4b53afc42a894d2d15a743e852b836d27038"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -927,17 +1425,25 @@
     {
       "type": "library",
       "name": "depd",
-      "version": "1.1.2",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|depd@1.1.2",
-      "purl": "pkg:npm/depd@1.1.2",
+      "version": "2.0.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|depd@2.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/depd@2.0.0",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/depd/-/depd-1.1.2.tgz",
+          "url": "https://registry.npmjs.org/depd/-/depd-2.0.0.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "9bcd52e14c097763e749b274c4346ed2e560b5a9"
+              "alg": "SHA-512",
+              "content": "83b9c7e8fe9dc838a8268800006a6b1a90ad5489898693e4feba02cdd6f77c887ad7fb3f9cfb1f47aa27c8cc2408047f3a50b7c810b49444af52840402cb08af"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -952,18 +1458,60 @@
     },
     {
       "type": "library",
-      "name": "http-errors",
-      "version": "1.6.3",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|http-errors@1.6.3",
-      "purl": "pkg:npm/http-errors@1.6.3",
+      "name": "destroy",
+      "version": "1.2.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|destroy@1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/destroy@1.2.0",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/http-errors/-/http-errors-1.6.3.tgz",
+          "url": "https://registry.npmjs.org/destroy/-/destroy-1.2.0.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "8b55680bb4be283a0b5bf4ea2e38580be1d9320d"
+              "alg": "SHA-512",
+              "content": "dac246253697208691d70e22252368374867318ec6a5cfe7f03e2a482270f10a855977fb72e0209c41f1069c1e69570f7af0b69772a98d80b1dcdca941081a26"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/destroy"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "http-errors",
+      "version": "2.0.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|http-errors@2.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/http-errors@2.0.0",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/http-errors/-/http-errors-2.0.0.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "16dc2b1bf7ae0736848d8791a8e825cbb1b4aaf8a25e82569ef107d99d6994175781bca3bf7e291d349bf73a1e1ccc83cb7dfe0d6cb95adf56a3e4d446d39849"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -974,22 +1522,66 @@
           "name": "cdx:npm:package:path",
           "value": "node_modules/http-errors"
         }
+      ],
+      "components": [
+        {
+          "type": "library",
+          "name": "statuses",
+          "version": "2.0.1",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|http-errors@2.0.0|statuses@2.0.1",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/statuses@2.0.1",
+          "externalReferences": [
+            {
+              "url": "https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz",
+              "type": "distribution",
+              "hashes": [
+                {
+                  "alg": "SHA-512",
+                  "content": "470340f59ffb3eb2b4eab60b23314c95a17e97bde2c29ceca9120581b30b6d370b0fa70e6a8f364da59e7cf5d0bc1d9f382e008ee612127752ecdfe64c26e475"
+                }
+              ],
+              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+            }
+          ],
+          "properties": [
+            {
+              "name": "cdx:npm:package:path",
+              "value": "node_modules/http-errors/node_modules/statuses"
+            }
+          ]
+        }
       ]
     },
     {
       "type": "library",
       "name": "iconv-lite",
-      "version": "0.4.23",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|iconv-lite@0.4.23",
-      "purl": "pkg:npm/iconv-lite@0.4.23",
+      "version": "0.4.24",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|iconv-lite@0.4.24",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/iconv-lite@0.4.24",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.23.tgz",
+          "url": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz",
           "type": "distribution",
           "hashes": [
             {
               "alg": "SHA-512",
-              "content": "9dec9351516d6a18dfd260777594fbeeefbc3b4401f3d8c57670647793f526060f6cf6a26b78175ce54bd9fabc57253680c303ed268ded0ba44c1fe999762f0c"
+              "content": "bf73179d901cbe7cb091350466898801cb657bb4575de79d391df5c3097b565ca85cee108bd6abbd27a73505a77b54dc4708422f51f02c8db56c4a9da63f3fac"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1004,70 +1596,26 @@
     },
     {
       "type": "library",
-      "name": "on-finished",
-      "version": "2.3.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|on-finished@2.3.0",
-      "purl": "pkg:npm/on-finished@2.3.0",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "20f1336481b083cd75337992a16971aa2d906947"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/on-finished"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "qs",
-      "version": "6.5.2",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|qs@6.5.2",
-      "purl": "pkg:npm/qs@6.5.2",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/qs/-/qs-6.5.2.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-512",
-              "content": "3796405f8fcbc49985fbbc0def8a540faa8087dff09ef750723abd4d98debef5f3494a3b6df9b0f75b1aa8c8f3192db1abdd7fa1d376756fd63a5eea40734318"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/qs"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "name": "raw-body",
-      "version": "2.3.3",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|raw-body@2.3.3",
-      "purl": "pkg:npm/raw-body@2.3.3",
+      "version": "2.5.2",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|raw-body@2.5.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/raw-body@2.5.2",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/raw-body/-/raw-body-2.3.3.tgz",
+          "url": "https://registry.npmjs.org/raw-body/-/raw-body-2.5.2.tgz",
           "type": "distribution",
           "hashes": [
             {
               "alg": "SHA-512",
-              "content": "f5eb22125bf506b668237ac20ee3ae2820516ee0291866833d07e349f946c5dcb8a32cea821c6eea4944924548bc18def85174057f5ca04bfc2aa5ba5ffee78f"
+              "content": "f331aaca97c4363088a868605d3a02f1a076afb62b057f804007c83ecfcc964f81b4f4f3b4ebd34b4d4d456ff7121eb427e6b8f25b7caac0b38ab43a9680957c"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1083,17 +1631,25 @@
     {
       "type": "library",
       "name": "type-is",
-      "version": "1.6.16",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|type-is@1.6.16",
-      "purl": "pkg:npm/type-is@1.6.16",
+      "version": "1.6.18",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|type-is@1.6.18",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/type-is@1.6.18",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/type-is/-/type-is-1.6.16.tgz",
+          "url": "https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz",
           "type": "distribution",
           "hashes": [
             {
               "alg": "SHA-512",
-              "content": "1d1915bffe6a6361ba23c89a6fd708eefd5b3887619bde1d5634023c51255bd5bedc67833921e6cb610161ee154c0a6ece894f7268054cdddfb55251291d89f5"
+              "content": "4e444aafdb144f1107f0c75fb8248fed58b3272cd134c8e3d89d9da3626bdcaca6e7df0955d124b2eccf4029e514f5b8932f50fa203e99af411a6d3a5d0072f2"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1108,18 +1664,18 @@
     },
     {
       "type": "library",
-      "name": "bluebird",
-      "version": "3.5.3",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|bluebird@3.5.3",
-      "purl": "pkg:npm/bluebird@3.5.3",
+      "name": "unpipe",
+      "version": "1.0.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|unpipe@1.0.0",
+      "purl": "pkg:npm/unpipe@1.0.0",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/bluebird/-/bluebird-3.5.3.tgz",
+          "url": "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-512",
-              "content": "fea28f51095a5b53b2479d567823c1bd19c0967645509902486e47cc69ee22a860c89b45f93f789459e7df77a26b38d19b62c01d5cb682e3676aae3c5fd489bb"
+              "alg": "SHA-1",
+              "content": "b2bf4ee8514aae6165b4817829d21b2ef49904ec"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1128,7 +1684,45 @@
       "properties": [
         {
           "name": "cdx:npm:package:path",
-          "value": "node_modules/bluebird"
+          "value": "node_modules/unpipe"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "lodash",
+      "version": "4.18.1",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|lodash@4.18.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/lodash@4.18.1",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/lodash/-/lodash-4.18.1.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "74c22789c4cf544f1dd5ee68b5fc269a3971919a14a6254bc32793754b22fc26a3fe07f3cdb941702139b111d5fc0b23b829b15abb5ed93346498b82782abed1"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        },
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/lodash"
         }
       ]
     },
@@ -1161,17 +1755,25 @@
     {
       "type": "library",
       "name": "cookie",
-      "version": "0.3.1",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|cookie@0.3.1",
-      "purl": "pkg:npm/cookie@0.3.1",
+      "version": "0.4.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|cookie@0.4.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/cookie@0.4.0",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/cookie/-/cookie-0.3.1.tgz",
+          "url": "https://registry.npmjs.org/cookie/-/cookie-0.4.0.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
+              "alg": "SHA-512",
+              "content": "f87a7c7cba79ef09d44add2d634b47117878be86510e7a08ad93ea968dc33e2238cbd97083f8eac7ed4e9bde3f5ba65a3c33946e78ceb7ff7dc3aeb393e9755e"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1187,17 +1789,25 @@
     {
       "type": "library",
       "name": "csrf",
-      "version": "3.0.6",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|csrf@3.0.6",
-      "purl": "pkg:npm/csrf@3.0.6",
+      "version": "3.1.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|csrf@3.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/csrf@3.1.0",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/csrf/-/csrf-3.0.6.tgz",
+          "url": "https://registry.npmjs.org/csrf/-/csrf-3.1.0.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "b61120ddceeafc91e76ed5313bb5c0b2667b710a"
+              "alg": "SHA-512",
+              "content": "b93a849c2bd6464d38d9ab14e89b5aa434dc25e79a8a5172e3274e412dbc6e3d6170b9d8462aa2f12b03da34b8d76018d48ff8a9d3b0599ba7efbe22ab2c1ff7"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1212,44 +1822,26 @@
     },
     {
       "type": "library",
-      "name": "crc",
-      "version": "3.4.4",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|crc@3.4.4",
-      "purl": "pkg:npm/crc@3.4.4",
-      "externalReferences": [
+      "name": "on-headers",
+      "version": "1.0.2",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|on-headers@1.0.2",
+      "licenses": [
         {
-          "url": "https://registry.npmjs.org/crc/-/crc-3.4.4.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "9da1e980e3bd44fc5c93bf5ab3da3378d85e466b"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
         }
       ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/crc"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "on-headers",
-      "version": "1.0.1",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|on-headers@1.0.1",
-      "purl": "pkg:npm/on-headers@1.0.1",
+      "purl": "pkg:npm/on-headers@1.0.2",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/on-headers/-/on-headers-1.0.1.tgz",
+          "url": "https://registry.npmjs.org/on-headers/-/on-headers-1.0.2.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "928f5d0f470d49342651ea6794b0857c100693f7"
+              "alg": "SHA-512",
+              "content": "a59004f8524ba32213cad76a2b4539b3e148a6337424fdcecc58bfbbc471f84579fd6f894d61971bcc45cdebc4ec08c17c3a87bfff2f2fca90b088479ea464ac"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1265,17 +1857,25 @@
     {
       "type": "library",
       "name": "parseurl",
-      "version": "1.3.2",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|parseurl@1.3.2",
-      "purl": "pkg:npm/parseurl@1.3.2",
+      "version": "1.3.3",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|parseurl@1.3.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/parseurl@1.3.3",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/parseurl/-/parseurl-1.3.2.tgz",
+          "url": "https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "fc289d4ed8993119460c156253262cdc8de65bf3"
+              "alg": "SHA-512",
+              "content": "0a2c9e3b1153fc96723799b4cfd3df5f0e1208127a4b2833d43a65d30aa39610c418604fd469ec51510bd29eb78681b57dc8f77c7ca75e2f4d60ee2758e2fea9"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1290,18 +1890,26 @@
     },
     {
       "type": "library",
-      "name": "utils-merge",
-      "version": "1.0.1",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|utils-merge@1.0.1",
-      "purl": "pkg:npm/utils-merge@1.0.1",
+      "name": "uid-safe",
+      "version": "2.1.5",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|uid-safe@2.1.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/uid-safe@2.1.5",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz",
+          "url": "https://registry.npmjs.org/uid-safe/-/uid-safe-2.1.5.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "9f95710f50a267947b2ccc124741c1028427e713"
+              "alg": "SHA-512",
+              "content": "28f1e6e152f97435cacf4d54b8477cf037fe2b3ca76a88522fd7c1874f7a29603148a6500c8dae06b56ab6f44ce2bc2b22b4512ac74b34c2ff96769a552462a0"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1310,24 +1918,32 @@
       "properties": [
         {
           "name": "cdx:npm:package:path",
-          "value": "node_modules/utils-merge"
+          "value": "node_modules/uid-safe"
         }
       ]
     },
     {
       "type": "library",
       "name": "accepts",
-      "version": "1.3.5",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|accepts@1.3.5",
-      "purl": "pkg:npm/accepts@1.3.5",
+      "version": "1.3.8",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|accepts@1.3.8",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/accepts@1.3.8",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/accepts/-/accepts-1.3.5.tgz",
+          "url": "https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "eb777df6011723a3b14e8a72c0805c8e86746bd2"
+              "alg": "SHA-512",
+              "content": "3d802d8536b69b654ac6ebd20f70cf0bf1b2f94fac380d4b02e4fc9a4991bafc3e34009269e5c443e34771517bace365eaa71ac55dd4b9e9b06b093eefe4892f"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1369,17 +1985,25 @@
     {
       "type": "library",
       "name": "content-disposition",
-      "version": "0.5.2",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|content-disposition@0.5.2",
-      "purl": "pkg:npm/content-disposition@0.5.2",
+      "version": "0.5.4",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|content-disposition@0.5.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/content-disposition@0.5.4",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.2.tgz",
+          "url": "https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.4.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "0cf68bb9ddf5f2be7961c3a85178cb85dba78cb4"
+              "alg": "SHA-512",
+              "content": "16f7994cdb86c34e1cc6502259bce2eb34c02ff9617a16966d3b6096e261e3f13de43a8cc139a16b7299375680580f1c148847ccc654bcb7af930e51aa4fad49"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1390,22 +2014,66 @@
           "name": "cdx:npm:package:path",
           "value": "node_modules/content-disposition"
         }
+      ],
+      "components": [
+        {
+          "type": "library",
+          "name": "safe-buffer",
+          "version": "5.2.1",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|content-disposition@0.5.4|safe-buffer@5.2.1",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/safe-buffer@5.2.1",
+          "externalReferences": [
+            {
+              "url": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz",
+              "type": "distribution",
+              "hashes": [
+                {
+                  "alg": "SHA-512",
+                  "content": "ae9dd2a34eca71d9a629b1af81a37141226bedb1954959394bd12ad45fa9a5b468ef4f9879a0f1930e4377c34f37e183e9b8e7626d95b8fb825e6a6e62f9825d"
+                }
+              ],
+              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+            }
+          ],
+          "properties": [
+            {
+              "name": "cdx:npm:package:path",
+              "value": "node_modules/content-disposition/node_modules/safe-buffer"
+            }
+          ]
+        }
       ]
     },
     {
       "type": "library",
       "name": "encodeurl",
-      "version": "1.0.2",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|encodeurl@1.0.2",
-      "purl": "pkg:npm/encodeurl@1.0.2",
+      "version": "2.0.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|encodeurl@2.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/encodeurl@2.0.0",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz",
+          "url": "https://registry.npmjs.org/encodeurl/-/encodeurl-2.0.0.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
+              "alg": "SHA-512",
+              "content": "4349fd1d18b89ba26e188575785966bc907b644571bbddc8accca232c182d25acc24c5b3460c7a586aaec9f4206556f7d6f8468179df98f34d5e6c673a4441ae"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1473,17 +2141,25 @@
     {
       "type": "library",
       "name": "finalhandler",
-      "version": "1.1.1",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|finalhandler@1.1.1",
-      "purl": "pkg:npm/finalhandler@1.1.1",
+      "version": "1.3.1",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|finalhandler@1.3.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/finalhandler@1.3.1",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/finalhandler/-/finalhandler-1.1.1.tgz",
+          "url": "https://registry.npmjs.org/finalhandler/-/finalhandler-1.3.1.tgz",
           "type": "distribution",
           "hashes": [
             {
               "alg": "SHA-512",
-              "content": "6351940e8dfd7b3e1a1c0c3b332b27503e49cd85fe59a223f08e7b90edda10f4f57c544be2cafb9a37a2f7b1609f0840cb2cd16264196931dbdbef6e67574fb6"
+              "content": "e8137db6b1fb6e9deabe7ad1cb3b01cfe837959c533594db54ed84575092d1621c0db6b0615758bc67e5304ffd40fd21d296250830424e361af67673303a72c5"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1498,18 +2174,60 @@
       "components": [
         {
           "type": "library",
-          "name": "statuses",
-          "version": "1.4.0",
-          "bom-ref": "owasp-nodejs-goat@1.3.0|finalhandler@1.1.1|statuses@1.4.0",
-          "purl": "pkg:npm/statuses@1.4.0",
+          "name": "on-finished",
+          "version": "2.4.1",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|finalhandler@1.3.1|on-finished@2.4.1",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/on-finished@2.4.1",
           "externalReferences": [
             {
-              "url": "https://registry.npmjs.org/statuses/-/statuses-1.4.0.tgz",
+              "url": "https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz",
               "type": "distribution",
               "hashes": [
                 {
                   "alg": "SHA-512",
-                  "content": "ce1482b6df2fd8d0eb4653d0a4236dc3f85e64bb5f503ab104cd6e76a8a46ff1db939d8b2b89d04b0af5d2eefb8a8a425b92ecc87a6e5d2d069c4738f262de7b"
+                  "content": "a15973920dc4340842936cddbfb209c1dfd0503e33d91c51c2991c198f29b0255c09864dab8c189d55802c733e6ebb6e26378f5a2605fc2966b83afc0a1e7e92"
+                }
+              ],
+              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+            }
+          ],
+          "properties": [
+            {
+              "name": "cdx:npm:package:path",
+              "value": "node_modules/finalhandler/node_modules/on-finished"
+            }
+          ]
+        },
+        {
+          "type": "library",
+          "name": "statuses",
+          "version": "2.0.1",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|finalhandler@1.3.1|statuses@2.0.1",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/statuses@2.0.1",
+          "externalReferences": [
+            {
+              "url": "https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz",
+              "type": "distribution",
+              "hashes": [
+                {
+                  "alg": "SHA-512",
+                  "content": "470340f59ffb3eb2b4eab60b23314c95a17e97bde2c29ceca9120581b30b6d370b0fa70e6a8f364da59e7cf5d0bc1d9f382e008ee612127752ecdfe64c26e475"
                 }
               ],
               "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1553,17 +2271,25 @@
     {
       "type": "library",
       "name": "merge-descriptors",
-      "version": "1.0.1",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|merge-descriptors@1.0.1",
-      "purl": "pkg:npm/merge-descriptors@1.0.1",
+      "version": "1.0.3",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|merge-descriptors@1.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/merge-descriptors@1.0.3",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.1.tgz",
+          "url": "https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.3.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "b00aaa556dd8b44568150ec9d1b953f3f90cbb61"
+              "alg": "SHA-512",
+              "content": "81a36f012ed367cf7bfeb55a6749ccb40cb13728bfa5d6e36c0c14a4542937bd06aa755f3a25e979450c291066cd769243c0dd4d7e3fd26b3adabd8afa113a99"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1605,17 +2331,25 @@
     {
       "type": "library",
       "name": "path-to-regexp",
-      "version": "0.1.7",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|path-to-regexp@0.1.7",
-      "purl": "pkg:npm/path-to-regexp@0.1.7",
+      "version": "0.1.12",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|path-to-regexp@0.1.12",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/path-to-regexp@0.1.12",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.7.tgz",
+          "url": "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.12.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "df604178005f522f15eb4490e7247a1bfaa67f8c"
+              "alg": "SHA-512",
+              "content": "440d468d454c9ef605c6eaa8beb12a668c715b935466a6f02ad633fd3b7b9d77ab9342db2db9509abb2075e3b15794851dfd140e08234bf6d278e670b75a6611"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1631,17 +2365,25 @@
     {
       "type": "library",
       "name": "proxy-addr",
-      "version": "2.0.4",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|proxy-addr@2.0.4",
-      "purl": "pkg:npm/proxy-addr@2.0.4",
+      "version": "2.0.8",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|proxy-addr@2.0.8",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/proxy-addr@2.0.8",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.4.tgz",
+          "url": "https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.8.tgz",
           "type": "distribution",
           "hashes": [
             {
               "alg": "SHA-512",
-              "content": "e5eae2a3687d8e9e421c6c1cc9b9b1995a879a708165e7b095f274a5ec7e516ed09f2ece3995d3b47e7a4c6372062ce48223b0849b4c2ab5730d378a732499c0"
+              "content": "e679f1d321b2554718eadf519d6700456b704fd1750fc3bdaedd3c86d3ef9dde3d5b522066d98b921bbd59f333423d5c1718c720ee9ca279d43555b993b015c9"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1657,17 +2399,25 @@
     {
       "type": "library",
       "name": "range-parser",
-      "version": "1.2.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|range-parser@1.2.0",
-      "purl": "pkg:npm/range-parser@1.2.0",
+      "version": "1.2.1",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|range-parser@1.2.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/range-parser@1.2.1",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/range-parser/-/range-parser-1.2.0.tgz",
+          "url": "https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "f49be6b487894ddc40dcc94a322f611092e00d5e"
+              "alg": "SHA-512",
+              "content": "1eb82cc7ea2baa8ca09e68456ca68713a736f7a27e1d30105e8c4417a80dba944e9a6189468cb37c6ddc700bdea8206bc2bff6cb143905577f1939796a03b04a"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1682,44 +2432,26 @@
     },
     {
       "type": "library",
-      "name": "safe-buffer",
-      "version": "5.1.2",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|safe-buffer@5.1.2",
-      "purl": "pkg:npm/safe-buffer@5.1.2",
-      "externalReferences": [
+      "name": "send",
+      "version": "0.19.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|send@0.19.0",
+      "licenses": [
         {
-          "url": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-512",
-              "content": "19dd94641243917958ec66c9c5fb04f3f9ef2a45045351b7f1cd6c88de903fa6bd3d3f4c98707c1a7a6c71298c252a05f0b388aedf2e77fc0fb688f2b381bafa"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
         }
       ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/safe-buffer"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "send",
-      "version": "0.16.2",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|send@0.16.2",
-      "purl": "pkg:npm/send@0.16.2",
+      "purl": "pkg:npm/send@0.19.0",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/send/-/send-0.16.2.tgz",
+          "url": "https://registry.npmjs.org/send/-/send-0.19.0.tgz",
           "type": "distribution",
           "hashes": [
             {
               "alg": "SHA-512",
-              "content": "13ae1814f52cb051c4141be96db8ebe383422ed23502887143c6528898d02ec90074abab89810fe95c8612c4431fc49ca331a991a5f5046be16a7a82c2470467"
+              "content": "756e35bb955f2d7bbc4898796f0466c9851b028481ddcf6e421e8bf21fcab6c15110f5a96d7d65ae58c9a35f3a25ce2799c8bfb06519f5ad1ad09db381fab687"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1734,18 +2466,128 @@
       "components": [
         {
           "type": "library",
-          "name": "statuses",
-          "version": "1.4.0",
-          "bom-ref": "owasp-nodejs-goat@1.3.0|send@0.16.2|statuses@1.4.0",
-          "purl": "pkg:npm/statuses@1.4.0",
+          "name": "encodeurl",
+          "version": "1.0.2",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|send@0.19.0|encodeurl@1.0.2",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/encodeurl@1.0.2",
           "externalReferences": [
             {
-              "url": "https://registry.npmjs.org/statuses/-/statuses-1.4.0.tgz",
+              "url": "https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz",
               "type": "distribution",
               "hashes": [
                 {
                   "alg": "SHA-512",
-                  "content": "ce1482b6df2fd8d0eb4653d0a4236dc3f85e64bb5f503ab104cd6e76a8a46ff1db939d8b2b89d04b0af5d2eefb8a8a425b92ecc87a6e5d2d069c4738f262de7b"
+                  "content": "4cf257abc26a15a5589b609698fbe73f6232a3865233bfd029c4a6b8c2c339b7e91f97e2ed150699dfeb4c37feaeeb7fb1a88389011e5533600262447403b1d3"
+                }
+              ],
+              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+            }
+          ],
+          "properties": [
+            {
+              "name": "cdx:npm:package:path",
+              "value": "node_modules/send/node_modules/encodeurl"
+            }
+          ]
+        },
+        {
+          "type": "library",
+          "name": "ms",
+          "version": "2.1.3",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|send@0.19.0|ms@2.1.3",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/ms@2.1.3",
+          "externalReferences": [
+            {
+              "url": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz",
+              "type": "distribution",
+              "hashes": [
+                {
+                  "alg": "SHA-512",
+                  "content": "e85973b9b4cb646dc9d9afcd542025784863ceae68c601f268253dc985ef70bb2fa1568726afece715c8ebf5d73fab73ed1f7100eb479d23bfb57b45dd645394"
+                }
+              ],
+              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+            }
+          ],
+          "properties": [
+            {
+              "name": "cdx:npm:package:path",
+              "value": "node_modules/send/node_modules/ms"
+            }
+          ]
+        },
+        {
+          "type": "library",
+          "name": "on-finished",
+          "version": "2.4.1",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|send@0.19.0|on-finished@2.4.1",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/on-finished@2.4.1",
+          "externalReferences": [
+            {
+              "url": "https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz",
+              "type": "distribution",
+              "hashes": [
+                {
+                  "alg": "SHA-512",
+                  "content": "a15973920dc4340842936cddbfb209c1dfd0503e33d91c51c2991c198f29b0255c09864dab8c189d55802c733e6ebb6e26378f5a2605fc2966b83afc0a1e7e92"
+                }
+              ],
+              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+            }
+          ],
+          "properties": [
+            {
+              "name": "cdx:npm:package:path",
+              "value": "node_modules/send/node_modules/on-finished"
+            }
+          ]
+        },
+        {
+          "type": "library",
+          "name": "statuses",
+          "version": "2.0.1",
+          "bom-ref": "owasp-nodejs-goat@1.3.0|send@0.19.0|statuses@2.0.1",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "pkg:npm/statuses@2.0.1",
+          "externalReferences": [
+            {
+              "url": "https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz",
+              "type": "distribution",
+              "hashes": [
+                {
+                  "alg": "SHA-512",
+                  "content": "470340f59ffb3eb2b4eab60b23314c95a17e97bde2c29ceca9120581b30b6d370b0fa70e6a8f364da59e7cf5d0bc1d9f382e008ee612127752ecdfe64c26e475"
                 }
               ],
               "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1763,17 +2605,25 @@
     {
       "type": "library",
       "name": "serve-static",
-      "version": "1.13.2",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|serve-static@1.13.2",
-      "purl": "pkg:npm/serve-static@1.13.2",
+      "version": "1.16.2",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|serve-static@1.16.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/serve-static@1.16.2",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/serve-static/-/serve-static-1.13.2.tgz",
+          "url": "https://registry.npmjs.org/serve-static/-/serve-static-1.16.2.tgz",
           "type": "distribution",
           "hashes": [
             {
               "alg": "SHA-512",
-              "content": "a7fb5d26b3b8537f3b47da0c8dbd688fba9231a31f98ec9de23f61385a3165ed9b690b338077125a3bb26bf0a24f9920659291b9d1cd380d296173a5f2b4399f"
+              "content": "56aa6325929a75007f3c46c4c2f15d3b8dc0c79745059d94102b33cfc6d0ee98bbc2dfff3d67b53fa30dede0a78ec6ad62d053e84ba20a56e34963f65ab2284f"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1789,17 +2639,25 @@
     {
       "type": "library",
       "name": "setprototypeof",
-      "version": "1.1.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|setprototypeof@1.1.0",
-      "purl": "pkg:npm/setprototypeof@1.1.0",
+      "version": "1.2.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|setprototypeof@1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/setprototypeof@1.2.0",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.1.0.tgz",
+          "url": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz",
           "type": "distribution",
           "hashes": [
             {
               "alg": "SHA-512",
-              "content": "06f13f4f0a595f8157131c4ec59c9119042feb9d4c4b09962991aabe63dc4488c3a96b9bebb9132ae20cc78ddc659ad2fdc041cf005c3435a8171b765c4148a5"
+              "content": "1392c35fb5aba7ce4a8a5e5b859bf8ea3f2339e6e82aae4932660cde05467461fcc45a4f59750cb0dae53830ab928c4c11e362fd7648c2e46f6385cdc18309a7"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -1809,6 +2667,32 @@
         {
           "name": "cdx:npm:package:path",
           "value": "node_modules/setprototypeof"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "utils-merge",
+      "version": "1.0.1",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|utils-merge@1.0.1",
+      "purl": "pkg:npm/utils-merge@1.0.1",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "9f95710f50a267947b2ccc124741c1028427e713"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/utils-merge"
         }
       ]
     },
@@ -2612,426 +3496,6 @@
     },
     {
       "type": "library",
-      "name": "connect",
-      "version": "3.4.1",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|connect@3.4.1",
-      "purl": "pkg:npm/connect@3.4.1",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/connect/-/connect-3.4.1.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "a21361d3f4099ef761cda6dc4a973bb1ebb0a34d"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/connect"
-        }
-      ],
-      "components": [
-        {
-          "type": "library",
-          "name": "debug",
-          "version": "2.2.0",
-          "bom-ref": "owasp-nodejs-goat@1.3.0|connect@3.4.1|debug@2.2.0",
-          "purl": "pkg:npm/debug@2.2.0",
-          "externalReferences": [
-            {
-              "url": "https://registry.npmjs.org/debug/-/debug-2.2.0.tgz",
-              "type": "distribution",
-              "hashes": [
-                {
-                  "alg": "SHA-1",
-                  "content": "f87057e995b1a1f6ae6a4960664137bc56f039da"
-                }
-              ],
-              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-            }
-          ],
-          "properties": [
-            {
-              "name": "cdx:npm:package:path",
-              "value": "node_modules/connect/node_modules/debug"
-            }
-          ]
-        },
-        {
-          "type": "library",
-          "name": "finalhandler",
-          "version": "0.4.1",
-          "bom-ref": "owasp-nodejs-goat@1.3.0|connect@3.4.1|finalhandler@0.4.1",
-          "purl": "pkg:npm/finalhandler@0.4.1",
-          "externalReferences": [
-            {
-              "url": "https://registry.npmjs.org/finalhandler/-/finalhandler-0.4.1.tgz",
-              "type": "distribution",
-              "hashes": [
-                {
-                  "alg": "SHA-1",
-                  "content": "85a17c6c59a94717d262d61230d4b0ebe3d4a14d"
-                }
-              ],
-              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-            }
-          ],
-          "properties": [
-            {
-              "name": "cdx:npm:package:path",
-              "value": "node_modules/connect/node_modules/finalhandler"
-            }
-          ]
-        },
-        {
-          "type": "library",
-          "name": "utils-merge",
-          "version": "1.0.0",
-          "bom-ref": "owasp-nodejs-goat@1.3.0|connect@3.4.1|utils-merge@1.0.0",
-          "purl": "pkg:npm/utils-merge@1.0.0",
-          "externalReferences": [
-            {
-              "url": "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.0.tgz",
-              "type": "distribution",
-              "hashes": [
-                {
-                  "alg": "SHA-1",
-                  "content": "0294fb922bb9375153541c4f7096231f287c8af8"
-                }
-              ],
-              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-            }
-          ],
-          "properties": [
-            {
-              "name": "cdx:npm:package:path",
-              "value": "node_modules/connect/node_modules/utils-merge"
-            }
-          ]
-        },
-        {
-          "type": "library",
-          "name": "ms",
-          "version": "0.7.1",
-          "bom-ref": "owasp-nodejs-goat@1.3.0|connect@3.4.1|ms@0.7.1",
-          "purl": "pkg:npm/ms@0.7.1",
-          "externalReferences": [
-            {
-              "url": "https://registry.npmjs.org/ms/-/ms-0.7.1.tgz",
-              "type": "distribution",
-              "hashes": [
-                {
-                  "alg": "SHA-1",
-                  "content": "9cd13c03adbff25b65effde7ce864ee952017098"
-                }
-              ],
-              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-            }
-          ],
-          "properties": [
-            {
-              "name": "cdx:npm:package:path",
-              "value": "node_modules/connect/node_modules/ms"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "dns-prefetch-control",
-      "version": "0.1.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|dns-prefetch-control@0.1.0",
-      "purl": "pkg:npm/dns-prefetch-control@0.1.0",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/dns-prefetch-control/-/dns-prefetch-control-0.1.0.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "60ddb457774e178f1f9415f0cabb0e85b0b300b2"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/dns-prefetch-control"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "frameguard",
-      "version": "2.0.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|frameguard@2.0.0",
-      "purl": "pkg:npm/frameguard@2.0.0",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/frameguard/-/frameguard-2.0.0.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "30c2c149e5e3505f9e156f9bc491a438420e487e"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/frameguard"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "helmet-csp",
-      "version": "1.2.2",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|helmet-csp@1.2.2",
-      "purl": "pkg:npm/helmet-csp@1.2.2",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/helmet-csp/-/helmet-csp-1.2.2.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "085c0307d57fc96cd97337f170ab8bfea99e5df7"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/helmet-csp"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "hide-powered-by",
-      "version": "1.0.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|hide-powered-by@1.0.0",
-      "purl": "pkg:npm/hide-powered-by@1.0.0",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/hide-powered-by/-/hide-powered-by-1.0.0.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "4a85ad65881f62857fc70af7174a1184dccce32b"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/hide-powered-by"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "hpkp",
-      "version": "1.2.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|hpkp@1.2.0",
-      "purl": "pkg:npm/hpkp@1.2.0",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/hpkp/-/hpkp-1.2.0.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "83f2cb38b26cff21daf26e2ff4b57126921dec65"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/hpkp"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "hsts",
-      "version": "1.0.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|hsts@1.0.0",
-      "purl": "pkg:npm/hsts@1.0.0",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/hsts/-/hsts-1.0.0.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "98e1039ef7aba554057b6b0e32584c0b1143a414"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/hsts"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "ienoopen",
-      "version": "1.0.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|ienoopen@1.0.0",
-      "purl": "pkg:npm/ienoopen@1.0.0",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/ienoopen/-/ienoopen-1.0.0.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "346a428f474aac8f50cf3784ea2d0f16f62bda6b"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/ienoopen"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "nocache",
-      "version": "1.0.1",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|nocache@1.0.1",
-      "purl": "pkg:npm/nocache@1.0.1",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/nocache/-/nocache-1.0.1.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "695c9f736926a7554f7365fa25e087941065bd36"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/nocache"
-        }
-      ],
-      "components": [
-        {
-          "type": "library",
-          "name": "depd",
-          "version": "1.1.0",
-          "bom-ref": "owasp-nodejs-goat@1.3.0|nocache@1.0.1|depd@1.1.0",
-          "purl": "pkg:npm/depd@1.1.0",
-          "externalReferences": [
-            {
-              "url": "https://registry.npmjs.org/depd/-/depd-1.1.0.tgz",
-              "type": "distribution",
-              "hashes": [
-                {
-                  "alg": "SHA-1",
-                  "content": "e1bd82c6aab6ced965b97b88b17ed3e528ca18c3"
-                }
-              ],
-              "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-            }
-          ],
-          "properties": [
-            {
-              "name": "cdx:npm:package:path",
-              "value": "node_modules/nocache/node_modules/depd"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "referrer-policy",
-      "version": "1.0.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|referrer-policy@1.0.0",
-      "purl": "pkg:npm/referrer-policy@1.0.0",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/referrer-policy/-/referrer-policy-1.0.0.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "f60eedc92f942b01a6118121ec932d66e8fd7e14"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/referrer-policy"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "x-xss-protection",
-      "version": "1.0.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|x-xss-protection@1.0.0",
-      "purl": "pkg:npm/x-xss-protection@1.0.0",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/x-xss-protection/-/x-xss-protection-1.0.0.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "898afb93869b24661cf9c52f9ee8db8ed0764dd9"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/x-xss-protection"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "name": "es6-promise",
       "version": "3.2.1",
       "bom-ref": "owasp-nodejs-goat@1.3.0|es6-promise@3.2.1",
@@ -3217,17 +3681,25 @@
     {
       "type": "library",
       "name": "inherits",
-      "version": "2.0.3",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|inherits@2.0.3",
-      "purl": "pkg:npm/inherits@2.0.3",
+      "version": "2.0.4",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|inherits@2.0.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/inherits@2.0.4",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz",
+          "url": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "633c2c83e3da42a502f52466022480f4208261de"
+              "alg": "SHA-512",
+              "content": "93fbc6697e3f6256b75b3c8c0af4d039761e207bea38ab67a8176ecd31e9ce9419cc0b2428c859d8af849c189233dcc64a820578ca572b16b8758799210a9ec1"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -3242,18 +3714,26 @@
     },
     {
       "type": "library",
-      "name": "statuses",
-      "version": "1.5.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|statuses@1.5.0",
-      "purl": "pkg:npm/statuses@1.5.0",
+      "name": "toidentifier",
+      "version": "1.0.1",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|toidentifier@1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/toidentifier@1.0.1",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/statuses/-/statuses-1.5.0.tgz",
+          "url": "https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "161c7dac177659fd9811f43771fa99381478628c"
+              "alg": "SHA-512",
+              "content": "a39b123ca12483f0c840d987e37574fee7ab2eba7355e764521f2d18dbda797a5fa6ec2329e9e54a8c7fd8efc14e5654b447be246eece58844cfad3c3e500744"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -3262,7 +3742,7 @@
       "properties": [
         {
           "name": "cdx:npm:package:path",
-          "value": "node_modules/statuses"
+          "value": "node_modules/toidentifier"
         }
       ]
     },
@@ -3320,18 +3800,26 @@
     },
     {
       "type": "library",
-      "name": "unpipe",
-      "version": "1.0.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|unpipe@1.0.0",
-      "purl": "pkg:npm/unpipe@1.0.0",
+      "name": "side-channel",
+      "version": "1.1.1",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|side-channel@1.1.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/side-channel@1.1.1",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz",
+          "url": "https://registry.npmjs.org/side-channel/-/side-channel-1.1.1.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "b2bf4ee8514aae6165b4817829d21b2ef49904ec"
+              "alg": "SHA-512",
+              "content": "eb1e9d2bacc97694f3178b1078d631c2dbc1cdfe848381ad95eb12f781cebd3b9d51ec8ad965c06887e60e0b32b2562b441785225b22e78018b05194ba19afad"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -3340,7 +3828,7 @@
       "properties": [
         {
           "name": "cdx:npm:package:path",
-          "value": "node_modules/unpipe"
+          "value": "node_modules/side-channel"
         }
       ]
     },
@@ -3349,6 +3837,14 @@
       "name": "media-typer",
       "version": "0.3.0",
       "bom-ref": "owasp-nodejs-goat@1.3.0|media-typer@0.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
       "purl": "pkg:npm/media-typer@0.3.0",
       "externalReferences": [
         {
@@ -3356,8 +3852,8 @@
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "8710d7af0aa626f8fffa1ce00168545263255748"
+              "alg": "SHA-512",
+              "content": "76afaa7a543d6a41e970e97f8145514f15483a4009d70477400bdbe11b158d2f285681630c64dcebbf702589949a49d41791f030b3a06f93be6b72b17d66a93d"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -3373,17 +3869,25 @@
     {
       "type": "library",
       "name": "mime-types",
-      "version": "2.1.21",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|mime-types@2.1.21",
-      "purl": "pkg:npm/mime-types@2.1.21",
+      "version": "2.1.35",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|mime-types@2.1.35",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/mime-types@2.1.35",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.21.tgz",
+          "url": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz",
           "type": "distribution",
           "hashes": [
             {
               "alg": "SHA-512",
-              "content": "de22fa0dbc29c8bce3477c4748534579bf4dcff33c583917df7b7518542714e9655a4f293ab87f2d2ac1e4e5e59e55b93fd2c7ef75fa9685bf7a881cf85e6526"
+              "content": "64363e6cf9b9cd34c5f98a42ac053d9cad148080983d3d10b53d4d65616fe2cfbe4cd91c815693d20ebee11dae238323423cf2b07075cf1b962f9d21cda7978b"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -3401,6 +3905,14 @@
       "name": "rndm",
       "version": "1.2.0",
       "bom-ref": "owasp-nodejs-goat@1.3.0|rndm@1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
       "purl": "pkg:npm/rndm@1.2.0",
       "externalReferences": [
         {
@@ -3408,8 +3920,8 @@
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "f33fe9cfb52bbfd520aa18323bc65db110a1b76c"
+              "alg": "SHA-512",
+              "content": "7c9850408e6d2eb42f608605a4e9c58a7ceff5dc2647b8519d4cf55ea3f7389d6323079334e77a6933b88f041281c05215407efca1c9c6e1a77a299ef857733b"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -3425,17 +3937,25 @@
     {
       "type": "library",
       "name": "tsscmp",
-      "version": "1.0.5",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|tsscmp@1.0.5",
-      "purl": "pkg:npm/tsscmp@1.0.5",
+      "version": "1.0.6",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|tsscmp@1.0.6",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/tsscmp@1.0.6",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/tsscmp/-/tsscmp-1.0.5.tgz",
+          "url": "https://registry.npmjs.org/tsscmp/-/tsscmp-1.0.6.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "7dc4a33af71581ab4337da91d85ca5427ebd9a97"
+              "alg": "SHA-512",
+              "content": "2f186d0243c34e45423108edda1e9e055636f0a0a38a466a65f31c0b5e5805e3639205297427c1bb91e888e4c3bbceafeac984f323a3c8492d27c8656c034740"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -3450,18 +3970,26 @@
     },
     {
       "type": "library",
-      "name": "uid-safe",
-      "version": "2.1.4",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|uid-safe@2.1.4",
-      "purl": "pkg:npm/uid-safe@2.1.4",
+      "name": "statuses",
+      "version": "1.5.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|statuses@1.5.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/statuses@1.5.0",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/uid-safe/-/uid-safe-2.1.4.tgz",
+          "url": "https://registry.npmjs.org/statuses/-/statuses-1.5.0.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "3ad6f38368c6d4c8c75ec17623fb79aa1d071d81"
+              "alg": "SHA-512",
+              "content": "3a9677ccffa34f53c8ec8f277a6257e002a6017d3bd199183d5595fc068a4c997eb570931b255d0b56b848bf11510604c24fdfdf8657f144f290debc170aea00"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -3470,7 +3998,7 @@
       "properties": [
         {
           "name": "cdx:npm:package:path",
-          "value": "node_modules/uid-safe"
+          "value": "node_modules/statuses"
         }
       ]
     },
@@ -3503,17 +4031,25 @@
     {
       "type": "library",
       "name": "negotiator",
-      "version": "0.6.1",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|negotiator@0.6.1",
-      "purl": "pkg:npm/negotiator@0.6.1",
+      "version": "0.6.3",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|negotiator@0.6.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/negotiator@0.6.3",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/negotiator/-/negotiator-0.6.1.tgz",
+          "url": "https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "2b327184e8992101177b28563fb5e7102acd0ca9"
+              "alg": "SHA-512",
+              "content": "f8452ca863cbb0cfa3ff37428598ec9d7e758385eb1c53885f07e70953c695093f9398226a470ab2ec4239b051bba0d29bda29c3f3bab2559b25d82140ce1b06"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -3529,17 +4065,25 @@
     {
       "type": "library",
       "name": "forwarded",
-      "version": "0.1.2",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|forwarded@0.1.2",
-      "purl": "pkg:npm/forwarded@0.1.2",
+      "version": "0.2.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|forwarded@0.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/forwarded@0.2.0",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/forwarded/-/forwarded-0.1.2.tgz",
+          "url": "https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "98c23dab1175657b8c0573e8ceccd91b0ff18c84"
+              "alg": "SHA-512",
+              "content": "6ee446d1fa41b511d24c238049eea10f6e7cb44b9b16844b6f864d03a3713151cdc3680e7301e8f70c9a6e5ccccce039cfdc40f4bd4a36393f36de8c4fd698a3"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -3555,17 +4099,25 @@
     {
       "type": "library",
       "name": "ipaddr.js",
-      "version": "1.8.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|ipaddr.js@1.8.0",
-      "purl": "pkg:npm/ipaddr.js@1.8.0",
+      "version": "1.9.1",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|ipaddr.js@1.9.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/ipaddr.js@1.9.1",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.8.0.tgz",
+          "url": "https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz",
           "type": "distribution",
           "hashes": [
             {
-              "alg": "SHA-1",
-              "content": "eaa33d6ddd7ace8f7f6fe0c9ca0440e706738b1e"
+              "alg": "SHA-512",
+              "content": "d0a23feb4ef1a31493a07ec68cdd457d26cba14d3e6ed4e2723b1049642587f859ca437c2a998c7fbb98c0f5b747e6a467a47fc35f199574870585e26143cede"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -3580,44 +4132,26 @@
     },
     {
       "type": "library",
-      "name": "destroy",
-      "version": "1.0.4",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|destroy@1.0.4",
-      "purl": "pkg:npm/destroy@1.0.4",
-      "externalReferences": [
+      "name": "mime",
+      "version": "1.6.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|mime@1.6.0",
+      "licenses": [
         {
-          "url": "https://registry.npmjs.org/destroy/-/destroy-1.0.4.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "978857442c44749e4206613e37946205826abd80"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
         }
       ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/destroy"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "mime",
-      "version": "1.4.1",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|mime@1.4.1",
-      "purl": "pkg:npm/mime@1.4.1",
+      "purl": "pkg:npm/mime@1.6.0",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/mime/-/mime-1.4.1.tgz",
+          "url": "https://registry.npmjs.org/mime/-/mime-1.6.0.tgz",
           "type": "distribution",
           "hashes": [
             {
               "alg": "SHA-512",
-              "content": "288d7ea8e66ee43716eb06b26074b347fb572820c2e4e9b8b35cf64098c350bccb7267f70efcd2ee896e6381c24eb73ef4588a99652078d2e0ed6dee210bf1b5"
+              "content": "c74567f2ca48fb0b89d4ee92ee09db69083c3f187834d1dbeca4883661162a23c4e1128ea65be28e7f8d92662699180febc99cef48f611b793151b2bb306907a"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -4366,136 +4900,6 @@
     },
     {
       "type": "library",
-      "name": "camelize",
-      "version": "1.0.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|camelize@1.0.0",
-      "purl": "pkg:npm/camelize@1.0.0",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/camelize/-/camelize-1.0.0.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "164a5483e630fa4321e5af07020e531831b2609b"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/camelize"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "content-security-policy-builder",
-      "version": "1.0.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|content-security-policy-builder@1.0.0",
-      "purl": "pkg:npm/content-security-policy-builder@1.0.0",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/content-security-policy-builder/-/content-security-policy-builder-1.0.0.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "11fd40c5cc298a6c725a35f9acf71e82ab5d3243"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/content-security-policy-builder"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "lodash.reduce",
-      "version": "4.5.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|lodash.reduce@4.5.0",
-      "purl": "pkg:npm/lodash.reduce@4.5.0",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/lodash.reduce/-/lodash.reduce-4.5.0.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "af7d2ec621062441e77d5bf408a1e071ef86691c"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/lodash.reduce"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "platform",
-      "version": "1.3.1",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|platform@1.3.1",
-      "purl": "pkg:npm/platform@1.3.1",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/platform/-/platform-1.3.1.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "492210892335bd3131c0a08dda2d93ec3543e423"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/platform"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "core-util-is",
-      "version": "1.0.2",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|core-util-is@1.0.2",
-      "purl": "pkg:npm/core-util-is@1.0.2",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "b5fd54220aa2bc5ab57aab7140c940754503c1a7"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/core-util-is"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "name": "bson",
       "version": "1.0.9",
       "bom-ref": "owasp-nodejs-goat@1.3.0|bson@1.0.9",
@@ -4569,6 +4973,32 @@
         {
           "name": "cdx:npm:package:path",
           "value": "node_modules/buffer-shims"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "core-util-is",
+      "version": "1.0.2",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|core-util-is@1.0.2",
+      "purl": "pkg:npm/core-util-is@1.0.2",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "b5fd54220aa2bc5ab57aab7140c940754503c1a7"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/core-util-is"
         }
       ]
     },
@@ -4706,18 +5136,196 @@
     },
     {
       "type": "library",
-      "name": "mime-db",
-      "version": "1.37.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|mime-db@1.37.0",
-      "purl": "pkg:npm/mime-db@1.37.0",
+      "name": "es-errors",
+      "version": "1.3.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|es-errors@1.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/es-errors@1.3.0",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/mime-db/-/mime-db-1.37.0.tgz",
+          "url": "https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz",
           "type": "distribution",
           "hashes": [
             {
               "alg": "SHA-512",
-              "content": "4770b875be9b8108652213d4e3c7d4b5d5662a77e5abe85175a77b2322a1b458f4e953cd55d9364618982f752340896ca3c2fe63102d164a1b4f454af92ff26e"
+              "content": "65fe47d8ac6ddb18d3bdb26f3f66562c4202c40ea3fa1026333225ca9cb8c5c060d6f2959f1f3d5b2d066d2fa47f9730095145cdd0858765d20853542d2e9cb3"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/es-errors"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "object-inspect",
+      "version": "1.13.4",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|object-inspect@1.13.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/object-inspect@1.13.4",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "5baee22e5e09d845c41936df78709f7eb8c37e2b6f2c0360d14957df01545124f1f762974457a0307515812a84fb0be101b8b85aa8c683d733cac4d5d84a5b7b"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/object-inspect"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "side-channel-list",
+      "version": "1.0.1",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|side-channel-list@1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/side-channel-list@1.0.1",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.1.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "9a39ffd1b8bfa145118dce5797b21a5a2fce24926e9aea0915025f0c3c8ee3afa1056b1f69533ae53047ab67a864187397d11c8713a28e991b442f12541414d3"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/side-channel-list"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "side-channel-map",
+      "version": "1.0.1",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|side-channel-map@1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/side-channel-map@1.0.1",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "5428c235f80cb1bcb7b53768d369db8ed33f7b0adaea33c79a94e17a7913621f291bdb9c67fd4ff12a38bb814605e93f063a4e56c0c23282c0fe2b8128815744"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/side-channel-map"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "side-channel-weakmap",
+      "version": "1.0.2",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|side-channel-weakmap@1.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/side-channel-weakmap@1.0.2",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "58f4bf1ef1d04d89c78ac2e8f4c72a0473899361641cefed969be5772ae77a6e1a790a7885a8b7832b61b3083aa74d684a84e5e7cadca621408c5d9baf6024d8"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/side-channel-weakmap"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "mime-db",
+      "version": "1.52.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|mime-db@1.52.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/mime-db@1.52.0",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "b0f538b95edd625bed589c70c311c3d0fba285536213b4f201b439496c43081f66518bce82ba103b061040e28f27c0886c4fb51135653a82b5502da7537818be"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -7163,32 +7771,6 @@
     },
     {
       "type": "library",
-      "name": "dashify",
-      "version": "0.2.2",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|dashify@0.2.2",
-      "purl": "pkg:npm/dashify@0.2.2",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/dashify/-/dashify-0.2.2.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "6a07415a01c91faf4a32e38d9dfba71f61cb20fe"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/dashify"
-        }
-      ]
-    },
-    {
-      "type": "library",
       "name": "resolve-from",
       "version": "2.0.0",
       "bom-ref": "owasp-nodejs-goat@1.3.0|resolve-from@2.0.0",
@@ -7236,6 +7818,32 @@
         {
           "name": "cdx:npm:package:path",
           "value": "node_modules/semver"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "safe-buffer",
+      "version": "5.1.2",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|safe-buffer@5.1.2",
+      "purl": "pkg:npm/safe-buffer@5.1.2",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "19dd94641243917958ec66c9c5fb04f3f9ef2a45045351b7f1cd6c88de903fa6bd3d3f4c98707c1a7a6c71298c252a05f0b388aedf2e77fc0fb688f2b381bafa"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/safe-buffer"
         }
       ]
     },
@@ -7314,6 +7922,74 @@
         {
           "name": "cdx:npm:package:path",
           "value": "node_modules/window-size"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "call-bound",
+      "version": "1.0.4",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|call-bound@1.0.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/call-bound@1.0.4",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/call-bound/-/call-bound-1.0.4.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "fb2b3df7b53dea9a382b1fc0069042aa103d12ec49690583420ef6f791f8841a61bf72198346e804abb0629b78617a7a319e4099942753fb72313951a5a49e8e"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/call-bound"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "get-intrinsic",
+      "version": "1.3.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|get-intrinsic@1.3.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/get-intrinsic@1.3.0",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "f5f4a349aa2cfdf448548a7ec5226513a95fc21112ecb36d29a08121a987b23af69dad418800493e8d263a38f3f062435116ab9823c6a9a89583999f8dbf7c09"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/get-intrinsic"
         }
       ]
     },
@@ -8474,6 +9150,312 @@
     },
     {
       "type": "library",
+      "name": "call-bind-apply-helpers",
+      "version": "1.0.2",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|call-bind-apply-helpers@1.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/call-bind-apply-helpers@1.0.2",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "4a9d5a6e52748af0e44b38dc68977112e9cde7f5ef92c149dac30115fabac74af285057fd9bfcac057b6d5c329987b4f3928a3f0af7dff049fa04b9339b9ae31"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/call-bind-apply-helpers"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "es-define-property",
+      "version": "1.0.1",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|es-define-property@1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/es-define-property@1.0.1",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "7b79d17e07d4678acd18bdb7da05205f4e90372c9ecf4e0a76316b17e2d34683979ab3a014a0e0e0109db235bc1274faf5ea9d606991a49c223d560dac2696de"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/es-define-property"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "es-object-atoms",
+      "version": "1.1.2",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|es-object-atoms@1.1.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/es-object-atoms@1.1.2",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.2.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "1d6701a0de8d8a57aab52c9d2b616a1db4bf2e80ddda9aab9d01cbc89cc18f890ea7f932d8c58c37af78c4e7e42bcfd29d4b16d831fb11fc9597274a0ac9b567"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/es-object-atoms"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "function-bind",
+      "version": "1.1.2",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|function-bind@1.1.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/function-bind@1.1.2",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "ed71cdc47eea5fdc46e66230c6486e993a31fcc21135c3a00ebc56b0cb76a40af6dd61e9e8cad194dec50521690a9afea153b417be38894811f369c931f1b648"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/function-bind"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "get-proto",
+      "version": "1.0.1",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|get-proto@1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/get-proto@1.0.1",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "b1349f063a17069f3d26f20a21e7eac3b53608279bb1cef892263a6b0886a202ada1219b823604fc6ffe97db05dcc5853cd73d21ca0e0b83837ca1dfc459a9d2"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/get-proto"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "gopd",
+      "version": "1.2.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|gopd@1.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/gopd@1.2.0",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "65429187afe4505a0089302d4d83d9277870f70371c7e04804e8a39e51bd3e7ac9b027128ecd70cb20fabc9a5a62d827cc3aca6114aa7f738ee917daf77c6c46"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/gopd"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "has-symbols",
+      "version": "1.1.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|has-symbols@1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/has-symbols@1.1.0",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "d5c0cd77027625aa2199bdec8383a629a301c2e0b8f2c6278b91d4c360efb02f0b8c64cb2bd87e79bd57e91cae3877b8853d142c25baf22a26863528294aa53d"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/has-symbols"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "hasown",
+      "version": "2.0.4",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|hasown@2.0.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/hasown@2.0.4",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/hasown/-/hasown-2.0.4.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "4f651b7db044177db089ea5722c3254d6f7e743602eb0321fedfef600e2db8e30aa96cff9f7bebd4d152c508b23fece4da65eca0c03f8bfeea57a2cabadd6dd4"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/hasown"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "math-intrinsics",
+      "version": "1.1.0",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|math-intrinsics@1.1.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/math-intrinsics@1.1.0",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "fc85ed6f0124e474cfc84c32297ea11a4617c4cf676e3eb807e8a55499c2fd1e81d291f91b85776f4a556cbec3063e2d921040a696d05257fa17a5e5f4b1eed6"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/math-intrinsics"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "name": "es-abstract",
       "version": "1.17.5",
       "bom-ref": "owasp-nodejs-goat@1.3.0|es-abstract@1.17.5",
@@ -8705,32 +9687,6 @@
         {
           "name": "cdx:npm:package:path",
           "value": "node_modules/regexp.prototype.flags"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "side-channel",
-      "version": "1.0.2",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|side-channel@1.0.2",
-      "purl": "pkg:npm/side-channel@1.0.2",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/side-channel/-/side-channel-1.0.2.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-512",
-              "content": "eeb2fd6253c783b02771e6b54bde8f6bcfd059be01b572ff4d9bd2e81f1715eb4605eba102c7e652ca4ae83a2405e67ae3e2a3f5308d443ff7d29573d41bd034"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/side-channel"
         }
       ]
     },
@@ -10102,6 +11058,40 @@
     },
     {
       "type": "library",
+      "name": "dunder-proto",
+      "version": "1.0.1",
+      "bom-ref": "owasp-nodejs-goat@1.3.0|dunder-proto@1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/dunder-proto@1.0.1",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "28837f9c3241411717c3430b561644f62407986ebca80548060f42aa65188e64088608a3f54e4c16faea9142f915bb72cb366e39e3add3375e45ee1463b72df8"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/dunder-proto"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "name": "es-to-primitive",
       "version": "1.2.1",
       "bom-ref": "owasp-nodejs-goat@1.3.0|es-to-primitive@1.2.1",
@@ -10123,58 +11113,6 @@
         {
           "name": "cdx:npm:package:path",
           "value": "node_modules/es-to-primitive"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "function-bind",
-      "version": "1.1.1",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|function-bind@1.1.1",
-      "purl": "pkg:npm/function-bind@1.1.1",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-512",
-              "content": "c88a2f033317e3db05f18979f1f482589e6cbd22ee6a26cfc5740914b98139b4ee0abd0c7f52a23e8a4633d3621638980426df69ad8587a6eb790e803554c8d0"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/function-bind"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "has-symbols",
-      "version": "1.0.1",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|has-symbols@1.0.1",
-      "purl": "pkg:npm/has-symbols@1.0.1",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/has-symbols/-/has-symbols-1.0.1.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-512",
-              "content": "3cb72ca2abbef9d98421907eeada2d3452aaffb0e8f99d2ee284f4cca389365de560aeaf1b0c2eda18c7b3eebc38465b4e389413d6e03800576cffc6beb4b42a"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/has-symbols"
         }
       ]
     },
@@ -10227,32 +11165,6 @@
         {
           "name": "cdx:npm:package:path",
           "value": "node_modules/is-callable"
-        }
-      ]
-    },
-    {
-      "type": "library",
-      "name": "object-inspect",
-      "version": "1.7.0",
-      "bom-ref": "owasp-nodejs-goat@1.3.0|object-inspect@1.7.0",
-      "purl": "pkg:npm/object-inspect@1.7.0",
-      "externalReferences": [
-        {
-          "url": "https://registry.npmjs.org/object-inspect/-/object-inspect-1.7.0.tgz",
-          "type": "distribution",
-          "hashes": [
-            {
-              "alg": "SHA-512",
-              "content": "6bba441dd875c4a200813c9250680b331ff1c0366c90dd5477a7a061837711d456e1930f3440d44c5fa1c32d8b502f8197e4b22d700d9f0cff8f287faaeb4a53"
-            }
-          ],
-          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
-        }
-      ],
-      "properties": [
-        {
-          "name": "cdx:npm:package:path",
-          "value": "node_modules/object-inspect"
         }
       ]
     },
@@ -12296,17 +13208,17 @@
       "ref": "owasp-nodejs-goat@1.3.0",
       "dependsOn": [
         "owasp-nodejs-goat@1.3.0|bcrypt-nodejs@0.0.3",
-        "owasp-nodejs-goat@1.3.0|body-parser@1.18.3",
-        "owasp-nodejs-goat@1.3.0|consolidate@0.14.5",
-        "owasp-nodejs-goat@1.3.0|csurf@1.9.0",
+        "owasp-nodejs-goat@1.3.0|body-parser@1.20.3",
+        "owasp-nodejs-goat@1.3.0|consolidate@1.0.4",
+        "owasp-nodejs-goat@1.3.0|csurf@1.11.0",
         "owasp-nodejs-goat@1.3.0|dont-sniff-mimetype@1.0.0",
-        "owasp-nodejs-goat@1.3.0|express-session@1.15.6",
-        "owasp-nodejs-goat@1.3.0|express@4.16.4",
+        "owasp-nodejs-goat@1.3.0|express-session@1.18.1",
+        "owasp-nodejs-goat@1.3.0|express@4.21.2",
         "owasp-nodejs-goat@1.3.0|forever@2.0.0",
-        "owasp-nodejs-goat@1.3.0|helmet@2.3.0",
-        "owasp-nodejs-goat@1.3.0|marked@0.3.5",
+        "owasp-nodejs-goat@1.3.0|helmet@4.6.0",
+        "owasp-nodejs-goat@1.3.0|marked@4.3.0",
         "owasp-nodejs-goat@1.3.0|mongodb@2.2.36",
-        "owasp-nodejs-goat@1.3.0|needle@2.2.4",
+        "owasp-nodejs-goat@1.3.0|needle@3.3.1",
         "owasp-nodejs-goat@1.3.0|node-esapi@0.0.1",
         "owasp-nodejs-goat@1.3.0|serve-favicon@2.5.0",
         "owasp-nodejs-goat@1.3.0|swig@1.4.2",
@@ -12317,106 +13229,151 @@
       "ref": "owasp-nodejs-goat@1.3.0|bcrypt-nodejs@0.0.3"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|body-parser@1.18.3",
+      "ref": "owasp-nodejs-goat@1.3.0|body-parser@1.20.3",
       "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|bytes@3.0.0",
-        "owasp-nodejs-goat@1.3.0|content-type@1.0.4",
+        "owasp-nodejs-goat@1.3.0|bytes@3.1.2",
+        "owasp-nodejs-goat@1.3.0|content-type@1.0.5",
         "owasp-nodejs-goat@1.3.0|debug@2.6.9",
-        "owasp-nodejs-goat@1.3.0|depd@1.1.2",
-        "owasp-nodejs-goat@1.3.0|http-errors@1.6.3",
-        "owasp-nodejs-goat@1.3.0|iconv-lite@0.4.23",
-        "owasp-nodejs-goat@1.3.0|on-finished@2.3.0",
-        "owasp-nodejs-goat@1.3.0|qs@6.5.2",
-        "owasp-nodejs-goat@1.3.0|raw-body@2.3.3",
-        "owasp-nodejs-goat@1.3.0|type-is@1.6.16"
+        "owasp-nodejs-goat@1.3.0|depd@2.0.0",
+        "owasp-nodejs-goat@1.3.0|destroy@1.2.0",
+        "owasp-nodejs-goat@1.3.0|http-errors@2.0.0",
+        "owasp-nodejs-goat@1.3.0|iconv-lite@0.4.24",
+        "owasp-nodejs-goat@1.3.0|body-parser@1.20.3|on-finished@2.4.1",
+        "owasp-nodejs-goat@1.3.0|body-parser@1.20.3|qs@6.13.0",
+        "owasp-nodejs-goat@1.3.0|raw-body@2.5.2",
+        "owasp-nodejs-goat@1.3.0|type-is@1.6.18",
+        "owasp-nodejs-goat@1.3.0|unpipe@1.0.0"
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|consolidate@0.14.5",
+      "ref": "owasp-nodejs-goat@1.3.0|body-parser@1.20.3|on-finished@2.4.1",
       "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|bluebird@3.5.3"
+        "owasp-nodejs-goat@1.3.0|ee-first@1.1.1"
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|csurf@1.9.0",
+      "ref": "owasp-nodejs-goat@1.3.0|body-parser@1.20.3|qs@6.13.0",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|side-channel@1.1.1"
+      ]
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|consolidate@1.0.4",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|lodash@4.18.1",
+        "owasp-nodejs-goat@1.3.0|swig@1.4.2",
+        "owasp-nodejs-goat@1.3.0|underscore@1.13.7"
+      ]
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|csurf@1.11.0",
       "dependsOn": [
         "owasp-nodejs-goat@1.3.0|cookie-signature@1.0.6",
-        "owasp-nodejs-goat@1.3.0|cookie@0.3.1",
-        "owasp-nodejs-goat@1.3.0|csrf@3.0.6",
-        "owasp-nodejs-goat@1.3.0|csurf@1.9.0|http-errors@1.5.1"
+        "owasp-nodejs-goat@1.3.0|cookie@0.4.0",
+        "owasp-nodejs-goat@1.3.0|csrf@3.1.0",
+        "owasp-nodejs-goat@1.3.0|csurf@1.11.0|http-errors@1.7.3"
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|csurf@1.9.0|http-errors@1.5.1",
+      "ref": "owasp-nodejs-goat@1.3.0|csurf@1.11.0|http-errors@1.7.3",
       "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|inherits@2.0.3",
-        "owasp-nodejs-goat@1.3.0|csurf@1.9.0|setprototypeof@1.0.2",
-        "owasp-nodejs-goat@1.3.0|statuses@1.5.0"
+        "owasp-nodejs-goat@1.3.0|csurf@1.11.0|depd@1.1.2",
+        "owasp-nodejs-goat@1.3.0|inherits@2.0.4",
+        "owasp-nodejs-goat@1.3.0|csurf@1.11.0|setprototypeof@1.1.1",
+        "owasp-nodejs-goat@1.3.0|statuses@1.5.0",
+        "owasp-nodejs-goat@1.3.0|csurf@1.11.0|toidentifier@1.0.0"
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|csurf@1.9.0|setprototypeof@1.0.2"
+      "ref": "owasp-nodejs-goat@1.3.0|csurf@1.11.0|depd@1.1.2"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|csurf@1.11.0|setprototypeof@1.1.1"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|csurf@1.11.0|toidentifier@1.0.0"
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|dont-sniff-mimetype@1.0.0"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|express-session@1.15.6",
+      "ref": "owasp-nodejs-goat@1.3.0|express-session@1.18.1",
       "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|cookie-signature@1.0.6",
-        "owasp-nodejs-goat@1.3.0|cookie@0.3.1",
-        "owasp-nodejs-goat@1.3.0|crc@3.4.4",
+        "owasp-nodejs-goat@1.3.0|express-session@1.18.1|cookie-signature@1.0.7",
+        "owasp-nodejs-goat@1.3.0|express-session@1.18.1|cookie@0.7.2",
         "owasp-nodejs-goat@1.3.0|debug@2.6.9",
-        "owasp-nodejs-goat@1.3.0|depd@1.1.2",
-        "owasp-nodejs-goat@1.3.0|on-headers@1.0.1",
-        "owasp-nodejs-goat@1.3.0|parseurl@1.3.2",
-        "owasp-nodejs-goat@1.3.0|express-session@1.15.6|uid-safe@2.1.5",
-        "owasp-nodejs-goat@1.3.0|utils-merge@1.0.1"
+        "owasp-nodejs-goat@1.3.0|depd@2.0.0",
+        "owasp-nodejs-goat@1.3.0|on-headers@1.0.2",
+        "owasp-nodejs-goat@1.3.0|parseurl@1.3.3",
+        "owasp-nodejs-goat@1.3.0|express-session@1.18.1|safe-buffer@5.2.1",
+        "owasp-nodejs-goat@1.3.0|uid-safe@2.1.5"
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|express-session@1.15.6|uid-safe@2.1.5",
-      "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|random-bytes@1.0.0"
-      ]
+      "ref": "owasp-nodejs-goat@1.3.0|express-session@1.18.1|cookie-signature@1.0.7"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|express@4.16.4",
+      "ref": "owasp-nodejs-goat@1.3.0|express-session@1.18.1|cookie@0.7.2"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|express-session@1.18.1|safe-buffer@5.2.1"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|express@4.21.2",
       "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|accepts@1.3.5",
+        "owasp-nodejs-goat@1.3.0|accepts@1.3.8",
         "owasp-nodejs-goat@1.3.0|array-flatten@1.1.1",
-        "owasp-nodejs-goat@1.3.0|body-parser@1.18.3",
-        "owasp-nodejs-goat@1.3.0|content-disposition@0.5.2",
-        "owasp-nodejs-goat@1.3.0|content-type@1.0.4",
+        "owasp-nodejs-goat@1.3.0|body-parser@1.20.3",
+        "owasp-nodejs-goat@1.3.0|content-disposition@0.5.4",
+        "owasp-nodejs-goat@1.3.0|content-type@1.0.5",
         "owasp-nodejs-goat@1.3.0|cookie-signature@1.0.6",
-        "owasp-nodejs-goat@1.3.0|cookie@0.3.1",
+        "owasp-nodejs-goat@1.3.0|express@4.21.2|cookie@0.7.1",
         "owasp-nodejs-goat@1.3.0|debug@2.6.9",
-        "owasp-nodejs-goat@1.3.0|depd@1.1.2",
-        "owasp-nodejs-goat@1.3.0|encodeurl@1.0.2",
+        "owasp-nodejs-goat@1.3.0|depd@2.0.0",
+        "owasp-nodejs-goat@1.3.0|encodeurl@2.0.0",
         "owasp-nodejs-goat@1.3.0|escape-html@1.0.3",
         "owasp-nodejs-goat@1.3.0|etag@1.8.1",
-        "owasp-nodejs-goat@1.3.0|finalhandler@1.1.1",
+        "owasp-nodejs-goat@1.3.0|finalhandler@1.3.1",
         "owasp-nodejs-goat@1.3.0|fresh@0.5.2",
-        "owasp-nodejs-goat@1.3.0|merge-descriptors@1.0.1",
+        "owasp-nodejs-goat@1.3.0|http-errors@2.0.0",
+        "owasp-nodejs-goat@1.3.0|merge-descriptors@1.0.3",
         "owasp-nodejs-goat@1.3.0|methods@1.1.2",
-        "owasp-nodejs-goat@1.3.0|on-finished@2.3.0",
-        "owasp-nodejs-goat@1.3.0|parseurl@1.3.2",
-        "owasp-nodejs-goat@1.3.0|path-to-regexp@0.1.7",
-        "owasp-nodejs-goat@1.3.0|proxy-addr@2.0.4",
-        "owasp-nodejs-goat@1.3.0|qs@6.5.2",
-        "owasp-nodejs-goat@1.3.0|range-parser@1.2.0",
-        "owasp-nodejs-goat@1.3.0|safe-buffer@5.1.2",
-        "owasp-nodejs-goat@1.3.0|send@0.16.2",
-        "owasp-nodejs-goat@1.3.0|serve-static@1.13.2",
-        "owasp-nodejs-goat@1.3.0|setprototypeof@1.1.0",
-        "owasp-nodejs-goat@1.3.0|express@4.16.4|statuses@1.4.0",
-        "owasp-nodejs-goat@1.3.0|type-is@1.6.16",
+        "owasp-nodejs-goat@1.3.0|express@4.21.2|on-finished@2.4.1",
+        "owasp-nodejs-goat@1.3.0|parseurl@1.3.3",
+        "owasp-nodejs-goat@1.3.0|path-to-regexp@0.1.12",
+        "owasp-nodejs-goat@1.3.0|proxy-addr@2.0.8",
+        "owasp-nodejs-goat@1.3.0|express@4.21.2|qs@6.13.0",
+        "owasp-nodejs-goat@1.3.0|range-parser@1.2.1",
+        "owasp-nodejs-goat@1.3.0|express@4.21.2|safe-buffer@5.2.1",
+        "owasp-nodejs-goat@1.3.0|send@0.19.0",
+        "owasp-nodejs-goat@1.3.0|serve-static@1.16.2",
+        "owasp-nodejs-goat@1.3.0|setprototypeof@1.2.0",
+        "owasp-nodejs-goat@1.3.0|express@4.21.2|statuses@2.0.1",
+        "owasp-nodejs-goat@1.3.0|type-is@1.6.18",
         "owasp-nodejs-goat@1.3.0|utils-merge@1.0.1",
         "owasp-nodejs-goat@1.3.0|vary@1.1.2"
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|express@4.16.4|statuses@1.4.0"
+      "ref": "owasp-nodejs-goat@1.3.0|express@4.21.2|cookie@0.7.1"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|express@4.21.2|on-finished@2.4.1",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|ee-first@1.1.1"
+      ]
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|express@4.21.2|qs@6.13.0",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|side-channel@1.1.1"
+      ]
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|express@4.21.2|safe-buffer@5.2.1"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|express@4.21.2|statuses@2.0.1"
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|forever@2.0.0",
@@ -12446,24 +13403,10 @@
       "ref": "owasp-nodejs-goat@1.3.0|forever@2.0.0|path-is-absolute@2.0.0"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|helmet@2.3.0",
-      "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|connect@3.4.1",
-        "owasp-nodejs-goat@1.3.0|dns-prefetch-control@0.1.0",
-        "owasp-nodejs-goat@1.3.0|dont-sniff-mimetype@1.0.0",
-        "owasp-nodejs-goat@1.3.0|frameguard@2.0.0",
-        "owasp-nodejs-goat@1.3.0|helmet-csp@1.2.2",
-        "owasp-nodejs-goat@1.3.0|hide-powered-by@1.0.0",
-        "owasp-nodejs-goat@1.3.0|hpkp@1.2.0",
-        "owasp-nodejs-goat@1.3.0|hsts@1.0.0",
-        "owasp-nodejs-goat@1.3.0|ienoopen@1.0.0",
-        "owasp-nodejs-goat@1.3.0|nocache@1.0.1",
-        "owasp-nodejs-goat@1.3.0|referrer-policy@1.0.0",
-        "owasp-nodejs-goat@1.3.0|x-xss-protection@1.0.0"
-      ]
+      "ref": "owasp-nodejs-goat@1.3.0|helmet@4.6.0"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|marked@0.3.5"
+      "ref": "owasp-nodejs-goat@1.3.0|marked@4.3.0"
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|mongodb@2.2.36",
@@ -12478,7 +13421,7 @@
       "dependsOn": [
         "owasp-nodejs-goat@1.3.0|buffer-shims@1.0.0",
         "owasp-nodejs-goat@1.3.0|core-util-is@1.0.2",
-        "owasp-nodejs-goat@1.3.0|inherits@2.0.3",
+        "owasp-nodejs-goat@1.3.0|inherits@2.0.4",
         "owasp-nodejs-goat@1.3.0|isarray@1.0.0",
         "owasp-nodejs-goat@1.3.0|mongodb@2.2.36|process-nextick-args@1.0.7",
         "owasp-nodejs-goat@1.3.0|mongodb@2.2.36|string_decoder@1.0.3",
@@ -12495,11 +13438,16 @@
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|needle@2.2.4",
+      "ref": "owasp-nodejs-goat@1.3.0|needle@3.3.1",
       "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|debug@2.6.9",
-        "owasp-nodejs-goat@1.3.0|iconv-lite@0.4.23",
+        "owasp-nodejs-goat@1.3.0|needle@3.3.1|iconv-lite@0.6.3",
         "owasp-nodejs-goat@1.3.0|sax@1.2.4"
+      ]
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|needle@3.3.1|iconv-lite@0.6.3",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|safer-buffer@2.1.2"
       ]
     },
     {
@@ -12511,7 +13459,7 @@
         "owasp-nodejs-goat@1.3.0|etag@1.8.1",
         "owasp-nodejs-goat@1.3.0|fresh@0.5.2",
         "owasp-nodejs-goat@1.3.0|serve-favicon@2.5.0|ms@2.1.1",
-        "owasp-nodejs-goat@1.3.0|parseurl@1.3.2",
+        "owasp-nodejs-goat@1.3.0|parseurl@1.3.3",
         "owasp-nodejs-goat@1.3.0|serve-favicon@2.5.0|safe-buffer@5.1.1"
       ]
     },
@@ -12532,10 +13480,10 @@
       "ref": "owasp-nodejs-goat@1.3.0|underscore@1.13.7"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|bytes@3.0.0"
+      "ref": "owasp-nodejs-goat@1.3.0|bytes@3.1.2"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|content-type@1.0.4"
+      "ref": "owasp-nodejs-goat@1.3.0|content-type@1.0.5"
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|debug@2.6.9",
@@ -12544,92 +13492,99 @@
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|depd@1.1.2"
+      "ref": "owasp-nodejs-goat@1.3.0|depd@2.0.0"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|http-errors@1.6.3",
+      "ref": "owasp-nodejs-goat@1.3.0|destroy@1.2.0"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|http-errors@2.0.0",
       "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|depd@1.1.2",
-        "owasp-nodejs-goat@1.3.0|inherits@2.0.3",
-        "owasp-nodejs-goat@1.3.0|setprototypeof@1.1.0",
-        "owasp-nodejs-goat@1.3.0|statuses@1.5.0"
+        "owasp-nodejs-goat@1.3.0|depd@2.0.0",
+        "owasp-nodejs-goat@1.3.0|inherits@2.0.4",
+        "owasp-nodejs-goat@1.3.0|setprototypeof@1.2.0",
+        "owasp-nodejs-goat@1.3.0|http-errors@2.0.0|statuses@2.0.1",
+        "owasp-nodejs-goat@1.3.0|toidentifier@1.0.1"
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|iconv-lite@0.4.23",
+      "ref": "owasp-nodejs-goat@1.3.0|http-errors@2.0.0|statuses@2.0.1"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|iconv-lite@0.4.24",
       "dependsOn": [
         "owasp-nodejs-goat@1.3.0|safer-buffer@2.1.2"
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|on-finished@2.3.0",
+      "ref": "owasp-nodejs-goat@1.3.0|raw-body@2.5.2",
       "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|ee-first@1.1.1"
-      ]
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|qs@6.5.2"
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|raw-body@2.3.3",
-      "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|bytes@3.0.0",
-        "owasp-nodejs-goat@1.3.0|http-errors@1.6.3",
-        "owasp-nodejs-goat@1.3.0|iconv-lite@0.4.23",
+        "owasp-nodejs-goat@1.3.0|bytes@3.1.2",
+        "owasp-nodejs-goat@1.3.0|http-errors@2.0.0",
+        "owasp-nodejs-goat@1.3.0|iconv-lite@0.4.24",
         "owasp-nodejs-goat@1.3.0|unpipe@1.0.0"
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|type-is@1.6.16",
+      "ref": "owasp-nodejs-goat@1.3.0|type-is@1.6.18",
       "dependsOn": [
         "owasp-nodejs-goat@1.3.0|media-typer@0.3.0",
-        "owasp-nodejs-goat@1.3.0|mime-types@2.1.21"
+        "owasp-nodejs-goat@1.3.0|mime-types@2.1.35"
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|bluebird@3.5.3"
+      "ref": "owasp-nodejs-goat@1.3.0|unpipe@1.0.0"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|lodash@4.18.1"
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|cookie-signature@1.0.6"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|cookie@0.3.1"
+      "ref": "owasp-nodejs-goat@1.3.0|cookie@0.4.0"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|csrf@3.0.6",
+      "ref": "owasp-nodejs-goat@1.3.0|csrf@3.1.0",
       "dependsOn": [
         "owasp-nodejs-goat@1.3.0|rndm@1.2.0",
-        "owasp-nodejs-goat@1.3.0|tsscmp@1.0.5",
-        "owasp-nodejs-goat@1.3.0|uid-safe@2.1.4"
+        "owasp-nodejs-goat@1.3.0|tsscmp@1.0.6",
+        "owasp-nodejs-goat@1.3.0|uid-safe@2.1.5"
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|crc@3.4.4"
+      "ref": "owasp-nodejs-goat@1.3.0|on-headers@1.0.2"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|on-headers@1.0.1"
+      "ref": "owasp-nodejs-goat@1.3.0|parseurl@1.3.3"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|parseurl@1.3.2"
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|utils-merge@1.0.1"
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|accepts@1.3.5",
+      "ref": "owasp-nodejs-goat@1.3.0|uid-safe@2.1.5",
       "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|mime-types@2.1.21",
-        "owasp-nodejs-goat@1.3.0|negotiator@0.6.1"
+        "owasp-nodejs-goat@1.3.0|random-bytes@1.0.0"
+      ]
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|accepts@1.3.8",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|mime-types@2.1.35",
+        "owasp-nodejs-goat@1.3.0|negotiator@0.6.3"
       ]
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|array-flatten@1.1.1"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|content-disposition@0.5.2"
+      "ref": "owasp-nodejs-goat@1.3.0|content-disposition@0.5.4",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|content-disposition@0.5.4|safe-buffer@5.2.1"
+      ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|encodeurl@1.0.2"
+      "ref": "owasp-nodejs-goat@1.3.0|content-disposition@0.5.4|safe-buffer@5.2.1"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|encodeurl@2.0.0"
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|escape-html@1.0.3"
@@ -12638,77 +13593,95 @@
       "ref": "owasp-nodejs-goat@1.3.0|etag@1.8.1"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|finalhandler@1.1.1",
+      "ref": "owasp-nodejs-goat@1.3.0|finalhandler@1.3.1",
       "dependsOn": [
         "owasp-nodejs-goat@1.3.0|debug@2.6.9",
-        "owasp-nodejs-goat@1.3.0|encodeurl@1.0.2",
+        "owasp-nodejs-goat@1.3.0|encodeurl@2.0.0",
         "owasp-nodejs-goat@1.3.0|escape-html@1.0.3",
-        "owasp-nodejs-goat@1.3.0|on-finished@2.3.0",
-        "owasp-nodejs-goat@1.3.0|parseurl@1.3.2",
-        "owasp-nodejs-goat@1.3.0|finalhandler@1.1.1|statuses@1.4.0",
+        "owasp-nodejs-goat@1.3.0|finalhandler@1.3.1|on-finished@2.4.1",
+        "owasp-nodejs-goat@1.3.0|parseurl@1.3.3",
+        "owasp-nodejs-goat@1.3.0|finalhandler@1.3.1|statuses@2.0.1",
         "owasp-nodejs-goat@1.3.0|unpipe@1.0.0"
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|finalhandler@1.1.1|statuses@1.4.0"
+      "ref": "owasp-nodejs-goat@1.3.0|finalhandler@1.3.1|on-finished@2.4.1",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|ee-first@1.1.1"
+      ]
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|finalhandler@1.3.1|statuses@2.0.1"
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|fresh@0.5.2"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|merge-descriptors@1.0.1"
+      "ref": "owasp-nodejs-goat@1.3.0|merge-descriptors@1.0.3"
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|methods@1.1.2"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|path-to-regexp@0.1.7"
+      "ref": "owasp-nodejs-goat@1.3.0|path-to-regexp@0.1.12"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|proxy-addr@2.0.4",
+      "ref": "owasp-nodejs-goat@1.3.0|proxy-addr@2.0.8",
       "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|forwarded@0.1.2",
-        "owasp-nodejs-goat@1.3.0|ipaddr.js@1.8.0"
+        "owasp-nodejs-goat@1.3.0|forwarded@0.2.0",
+        "owasp-nodejs-goat@1.3.0|ipaddr.js@1.9.1"
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|range-parser@1.2.0"
+      "ref": "owasp-nodejs-goat@1.3.0|range-parser@1.2.1"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|safe-buffer@5.1.2"
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|send@0.16.2",
+      "ref": "owasp-nodejs-goat@1.3.0|send@0.19.0",
       "dependsOn": [
         "owasp-nodejs-goat@1.3.0|debug@2.6.9",
-        "owasp-nodejs-goat@1.3.0|depd@1.1.2",
-        "owasp-nodejs-goat@1.3.0|destroy@1.0.4",
-        "owasp-nodejs-goat@1.3.0|encodeurl@1.0.2",
+        "owasp-nodejs-goat@1.3.0|depd@2.0.0",
+        "owasp-nodejs-goat@1.3.0|destroy@1.2.0",
+        "owasp-nodejs-goat@1.3.0|send@0.19.0|encodeurl@1.0.2",
         "owasp-nodejs-goat@1.3.0|escape-html@1.0.3",
         "owasp-nodejs-goat@1.3.0|etag@1.8.1",
         "owasp-nodejs-goat@1.3.0|fresh@0.5.2",
-        "owasp-nodejs-goat@1.3.0|http-errors@1.6.3",
-        "owasp-nodejs-goat@1.3.0|mime@1.4.1",
-        "owasp-nodejs-goat@1.3.0|ms@2.0.0",
-        "owasp-nodejs-goat@1.3.0|on-finished@2.3.0",
-        "owasp-nodejs-goat@1.3.0|range-parser@1.2.0",
-        "owasp-nodejs-goat@1.3.0|send@0.16.2|statuses@1.4.0"
+        "owasp-nodejs-goat@1.3.0|http-errors@2.0.0",
+        "owasp-nodejs-goat@1.3.0|mime@1.6.0",
+        "owasp-nodejs-goat@1.3.0|send@0.19.0|ms@2.1.3",
+        "owasp-nodejs-goat@1.3.0|send@0.19.0|on-finished@2.4.1",
+        "owasp-nodejs-goat@1.3.0|range-parser@1.2.1",
+        "owasp-nodejs-goat@1.3.0|send@0.19.0|statuses@2.0.1"
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|send@0.16.2|statuses@1.4.0"
+      "ref": "owasp-nodejs-goat@1.3.0|send@0.19.0|encodeurl@1.0.2"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|serve-static@1.13.2",
+      "ref": "owasp-nodejs-goat@1.3.0|send@0.19.0|ms@2.1.3"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|send@0.19.0|on-finished@2.4.1",
       "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|encodeurl@1.0.2",
-        "owasp-nodejs-goat@1.3.0|escape-html@1.0.3",
-        "owasp-nodejs-goat@1.3.0|parseurl@1.3.2",
-        "owasp-nodejs-goat@1.3.0|send@0.16.2"
+        "owasp-nodejs-goat@1.3.0|ee-first@1.1.1"
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|setprototypeof@1.1.0"
+      "ref": "owasp-nodejs-goat@1.3.0|send@0.19.0|statuses@2.0.1"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|serve-static@1.16.2",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|encodeurl@2.0.0",
+        "owasp-nodejs-goat@1.3.0|escape-html@1.0.3",
+        "owasp-nodejs-goat@1.3.0|parseurl@1.3.3",
+        "owasp-nodejs-goat@1.3.0|send@0.19.0"
+      ]
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|setprototypeof@1.2.0"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|utils-merge@1.0.1"
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|vary@1.1.2"
@@ -12764,7 +13737,7 @@
         "owasp-nodejs-goat@1.3.0|braces@2.3.2",
         "owasp-nodejs-goat@1.3.0|fsevents@1.2.9",
         "owasp-nodejs-goat@1.3.0|glob-parent@3.1.0",
-        "owasp-nodejs-goat@1.3.0|inherits@2.0.3",
+        "owasp-nodejs-goat@1.3.0|inherits@2.0.4",
         "owasp-nodejs-goat@1.3.0|is-binary-path@1.0.1",
         "owasp-nodejs-goat@1.3.0|is-glob@4.0.1",
         "owasp-nodejs-goat@1.3.0|normalize-path@3.0.0",
@@ -12888,81 +13861,6 @@
       "ref": "owasp-nodejs-goat@1.3.0|winston@0.8.3|async@0.2.10"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|connect@3.4.1",
-      "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|connect@3.4.1|debug@2.2.0",
-        "owasp-nodejs-goat@1.3.0|connect@3.4.1|finalhandler@0.4.1",
-        "owasp-nodejs-goat@1.3.0|parseurl@1.3.2",
-        "owasp-nodejs-goat@1.3.0|connect@3.4.1|utils-merge@1.0.0"
-      ]
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|connect@3.4.1|debug@2.2.0",
-      "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|connect@3.4.1|ms@0.7.1"
-      ]
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|connect@3.4.1|finalhandler@0.4.1",
-      "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|connect@3.4.1|debug@2.2.0",
-        "owasp-nodejs-goat@1.3.0|escape-html@1.0.3",
-        "owasp-nodejs-goat@1.3.0|on-finished@2.3.0",
-        "owasp-nodejs-goat@1.3.0|unpipe@1.0.0"
-      ]
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|connect@3.4.1|utils-merge@1.0.0"
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|connect@3.4.1|ms@0.7.1"
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|dns-prefetch-control@0.1.0"
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|frameguard@2.0.0"
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|helmet-csp@1.2.2",
-      "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|camelize@1.0.0",
-        "owasp-nodejs-goat@1.3.0|content-security-policy-builder@1.0.0",
-        "owasp-nodejs-goat@1.3.0|lodash.reduce@4.5.0",
-        "owasp-nodejs-goat@1.3.0|platform@1.3.1"
-      ]
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|hide-powered-by@1.0.0"
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|hpkp@1.2.0"
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|hsts@1.0.0",
-      "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|core-util-is@1.0.2"
-      ]
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|ienoopen@1.0.0"
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|nocache@1.0.1",
-      "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|nocache@1.0.1|depd@1.1.0"
-      ]
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|nocache@1.0.1|depd@1.1.0"
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|referrer-policy@1.0.0"
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|x-xss-protection@1.0.0"
-    },
-    {
       "ref": "owasp-nodejs-goat@1.3.0|es6-promise@3.2.1"
     },
     {
@@ -12997,10 +13895,10 @@
       "ref": "owasp-nodejs-goat@1.3.0|ms@2.0.0"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|inherits@2.0.3"
+      "ref": "owasp-nodejs-goat@1.3.0|inherits@2.0.4"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|statuses@1.5.0"
+      "ref": "owasp-nodejs-goat@1.3.0|toidentifier@1.0.1"
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|safer-buffer@2.1.2"
@@ -13009,46 +13907,47 @@
       "ref": "owasp-nodejs-goat@1.3.0|ee-first@1.1.1"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|unpipe@1.0.0"
+      "ref": "owasp-nodejs-goat@1.3.0|side-channel@1.1.1",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|es-errors@1.3.0",
+        "owasp-nodejs-goat@1.3.0|object-inspect@1.13.4",
+        "owasp-nodejs-goat@1.3.0|side-channel-list@1.0.1",
+        "owasp-nodejs-goat@1.3.0|side-channel-map@1.0.1",
+        "owasp-nodejs-goat@1.3.0|side-channel-weakmap@1.0.2"
+      ]
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|media-typer@0.3.0"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|mime-types@2.1.21",
+      "ref": "owasp-nodejs-goat@1.3.0|mime-types@2.1.35",
       "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|mime-db@1.37.0"
+        "owasp-nodejs-goat@1.3.0|mime-db@1.52.0"
       ]
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|rndm@1.2.0"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|tsscmp@1.0.5"
+      "ref": "owasp-nodejs-goat@1.3.0|tsscmp@1.0.6"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|uid-safe@2.1.4",
-      "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|random-bytes@1.0.0"
-      ]
+      "ref": "owasp-nodejs-goat@1.3.0|statuses@1.5.0"
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|random-bytes@1.0.0"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|negotiator@0.6.1"
+      "ref": "owasp-nodejs-goat@1.3.0|negotiator@0.6.3"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|forwarded@0.1.2"
+      "ref": "owasp-nodejs-goat@1.3.0|forwarded@0.2.0"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|ipaddr.js@1.8.0"
+      "ref": "owasp-nodejs-goat@1.3.0|ipaddr.js@1.9.1"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|destroy@1.0.4"
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|mime@1.4.1"
+      "ref": "owasp-nodejs-goat@1.3.0|mime@1.6.0"
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|eyes@0.1.8"
@@ -13199,24 +14098,6 @@
       "ref": "owasp-nodejs-goat@1.3.0|stack-trace@0.0.10"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|camelize@1.0.0"
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|content-security-policy-builder@1.0.0",
-      "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|dashify@0.2.2"
-      ]
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|lodash.reduce@4.5.0"
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|platform@1.3.1"
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|core-util-is@1.0.2"
-    },
-    {
       "ref": "owasp-nodejs-goat@1.3.0|bson@1.0.9"
     },
     {
@@ -13228,6 +14109,9 @@
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|buffer-shims@1.0.0"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|core-util-is@1.0.2"
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|isarray@1.0.0"
@@ -13251,7 +14135,39 @@
       "ref": "owasp-nodejs-goat@1.3.0|yargs@3.5.4|wordwrap@0.0.2"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|mime-db@1.37.0"
+      "ref": "owasp-nodejs-goat@1.3.0|es-errors@1.3.0"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|object-inspect@1.13.4"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|side-channel-list@1.0.1",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|es-errors@1.3.0",
+        "owasp-nodejs-goat@1.3.0|object-inspect@1.13.4"
+      ]
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|side-channel-map@1.0.1",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|call-bound@1.0.4",
+        "owasp-nodejs-goat@1.3.0|es-errors@1.3.0",
+        "owasp-nodejs-goat@1.3.0|get-intrinsic@1.3.0",
+        "owasp-nodejs-goat@1.3.0|object-inspect@1.13.4"
+      ]
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|side-channel-weakmap@1.0.2",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|call-bound@1.0.4",
+        "owasp-nodejs-goat@1.3.0|es-errors@1.3.0",
+        "owasp-nodejs-goat@1.3.0|get-intrinsic@1.3.0",
+        "owasp-nodejs-goat@1.3.0|object-inspect@1.13.4",
+        "owasp-nodejs-goat@1.3.0|side-channel-map@1.0.1"
+      ]
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|mime-db@1.52.0"
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|read@1.0.7",
@@ -13735,7 +14651,7 @@
       "dependsOn": [
         "owasp-nodejs-goat@1.3.0|tape@2.3.3|deep-equal@0.1.2",
         "owasp-nodejs-goat@1.3.0|defined@0.0.0",
-        "owasp-nodejs-goat@1.3.0|inherits@2.0.3",
+        "owasp-nodejs-goat@1.3.0|inherits@2.0.4",
         "owasp-nodejs-goat@1.3.0|jsonify@0.0.0",
         "owasp-nodejs-goat@1.3.0|resumer@0.0.0",
         "owasp-nodejs-goat@1.3.0|through@2.3.8"
@@ -13749,20 +14665,20 @@
       "dependsOn": [
         "owasp-nodejs-goat@1.3.0|fs.realpath@1.0.0",
         "owasp-nodejs-goat@1.3.0|inflight@1.0.6",
-        "owasp-nodejs-goat@1.3.0|inherits@2.0.3",
+        "owasp-nodejs-goat@1.3.0|inherits@2.0.4",
         "owasp-nodejs-goat@1.3.0|minimatch@3.0.4",
         "owasp-nodejs-goat@1.3.0|once@1.4.0",
         "owasp-nodejs-goat@1.3.0|path-is-absolute@1.0.1"
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|dashify@0.2.2"
-    },
-    {
       "ref": "owasp-nodejs-goat@1.3.0|resolve-from@2.0.0"
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|semver@5.6.0"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|safe-buffer@5.1.2"
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|amdefine@1.0.1"
@@ -13772,6 +14688,28 @@
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|window-size@0.1.0"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|call-bound@1.0.4",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|call-bind-apply-helpers@1.0.2",
+        "owasp-nodejs-goat@1.3.0|get-intrinsic@1.3.0"
+      ]
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|get-intrinsic@1.3.0",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|call-bind-apply-helpers@1.0.2",
+        "owasp-nodejs-goat@1.3.0|es-define-property@1.0.1",
+        "owasp-nodejs-goat@1.3.0|es-errors@1.3.0",
+        "owasp-nodejs-goat@1.3.0|es-object-atoms@1.1.2",
+        "owasp-nodejs-goat@1.3.0|function-bind@1.1.2",
+        "owasp-nodejs-goat@1.3.0|get-proto@1.0.1",
+        "owasp-nodejs-goat@1.3.0|gopd@1.2.0",
+        "owasp-nodejs-goat@1.3.0|has-symbols@1.1.0",
+        "owasp-nodejs-goat@1.3.0|hasown@2.0.4",
+        "owasp-nodejs-goat@1.3.0|math-intrinsics@1.1.0"
+      ]
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|deep-equal@2.0.2",
@@ -13785,7 +14723,7 @@
         "owasp-nodejs-goat@1.3.0|object-is@1.0.2",
         "owasp-nodejs-goat@1.3.0|object-keys@1.1.1",
         "owasp-nodejs-goat@1.3.0|regexp.prototype.flags@1.3.0",
-        "owasp-nodejs-goat@1.3.0|side-channel@1.0.2",
+        "owasp-nodejs-goat@1.3.0|side-channel@1.1.1",
         "owasp-nodejs-goat@1.3.0|which-boxed-primitive@1.0.1",
         "owasp-nodejs-goat@1.3.0|which-collection@1.0.1",
         "owasp-nodejs-goat@1.3.0|which-typed-array@1.1.1"
@@ -13947,7 +14885,7 @@
       "ref": "owasp-nodejs-goat@1.3.0|readable-stream@2.3.6",
       "dependsOn": [
         "owasp-nodejs-goat@1.3.0|core-util-is@1.0.2",
-        "owasp-nodejs-goat@1.3.0|inherits@2.0.3",
+        "owasp-nodejs-goat@1.3.0|inherits@2.0.4",
         "owasp-nodejs-goat@1.3.0|isarray@1.0.0",
         "owasp-nodejs-goat@1.3.0|process-nextick-args@2.0.0",
         "owasp-nodejs-goat@1.3.0|safe-buffer@5.1.2",
@@ -14021,15 +14959,56 @@
       ]
     },
     {
+      "ref": "owasp-nodejs-goat@1.3.0|call-bind-apply-helpers@1.0.2",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|es-errors@1.3.0",
+        "owasp-nodejs-goat@1.3.0|function-bind@1.1.2"
+      ]
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|es-define-property@1.0.1"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|es-object-atoms@1.1.2",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|es-errors@1.3.0"
+      ]
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|function-bind@1.1.2"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|get-proto@1.0.1",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|dunder-proto@1.0.1",
+        "owasp-nodejs-goat@1.3.0|es-object-atoms@1.1.2"
+      ]
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|gopd@1.2.0"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|has-symbols@1.1.0"
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|hasown@2.0.4",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|function-bind@1.1.2"
+      ]
+    },
+    {
+      "ref": "owasp-nodejs-goat@1.3.0|math-intrinsics@1.1.0"
+    },
+    {
       "ref": "owasp-nodejs-goat@1.3.0|es-abstract@1.17.5",
       "dependsOn": [
         "owasp-nodejs-goat@1.3.0|es-to-primitive@1.2.1",
-        "owasp-nodejs-goat@1.3.0|function-bind@1.1.1",
-        "owasp-nodejs-goat@1.3.0|has-symbols@1.0.1",
+        "owasp-nodejs-goat@1.3.0|function-bind@1.1.2",
+        "owasp-nodejs-goat@1.3.0|has-symbols@1.1.0",
         "owasp-nodejs-goat@1.3.0|has@1.0.3",
         "owasp-nodejs-goat@1.3.0|is-callable@1.1.5",
         "owasp-nodejs-goat@1.3.0|is-regex@1.0.5",
-        "owasp-nodejs-goat@1.3.0|object-inspect@1.7.0",
+        "owasp-nodejs-goat@1.3.0|object-inspect@1.13.4",
         "owasp-nodejs-goat@1.3.0|object-keys@1.1.1",
         "owasp-nodejs-goat@1.3.0|object.assign@4.1.0",
         "owasp-nodejs-goat@1.3.0|string.prototype.trimleft@2.1.2",
@@ -14040,7 +15019,7 @@
       "ref": "owasp-nodejs-goat@1.3.0|es-get-iterator@1.1.0",
       "dependsOn": [
         "owasp-nodejs-goat@1.3.0|es-abstract@1.17.5",
-        "owasp-nodejs-goat@1.3.0|has-symbols@1.0.1",
+        "owasp-nodejs-goat@1.3.0|has-symbols@1.1.0",
         "owasp-nodejs-goat@1.3.0|is-arguments@1.0.4",
         "owasp-nodejs-goat@1.3.0|is-map@2.0.1",
         "owasp-nodejs-goat@1.3.0|is-set@2.0.1",
@@ -14077,13 +15056,6 @@
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|side-channel@1.0.2",
-      "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|es-abstract@1.17.5",
-        "owasp-nodejs-goat@1.3.0|object-inspect@1.7.0"
-      ]
-    },
-    {
       "ref": "owasp-nodejs-goat@1.3.0|which-boxed-primitive@1.0.1",
       "dependsOn": [
         "owasp-nodejs-goat@1.3.0|is-bigint@1.0.0",
@@ -14107,8 +15079,8 @@
       "dependsOn": [
         "owasp-nodejs-goat@1.3.0|available-typed-arrays@1.0.2",
         "owasp-nodejs-goat@1.3.0|es-abstract@1.17.5",
-        "owasp-nodejs-goat@1.3.0|function-bind@1.1.1",
-        "owasp-nodejs-goat@1.3.0|has-symbols@1.0.1",
+        "owasp-nodejs-goat@1.3.0|function-bind@1.1.2",
+        "owasp-nodejs-goat@1.3.0|has-symbols@1.1.0",
         "owasp-nodejs-goat@1.3.0|is-typed-array@1.1.3"
       ]
     },
@@ -14381,6 +15353,14 @@
       "ref": "owasp-nodejs-goat@1.3.0|wrappy@1.0.2"
     },
     {
+      "ref": "owasp-nodejs-goat@1.3.0|dunder-proto@1.0.1",
+      "dependsOn": [
+        "owasp-nodejs-goat@1.3.0|call-bind-apply-helpers@1.0.2",
+        "owasp-nodejs-goat@1.3.0|es-errors@1.3.0",
+        "owasp-nodejs-goat@1.3.0|gopd@1.2.0"
+      ]
+    },
+    {
       "ref": "owasp-nodejs-goat@1.3.0|es-to-primitive@1.2.1",
       "dependsOn": [
         "owasp-nodejs-goat@1.3.0|is-callable@1.1.5",
@@ -14389,29 +15369,20 @@
       ]
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|function-bind@1.1.1"
-    },
-    {
-      "ref": "owasp-nodejs-goat@1.3.0|has-symbols@1.0.1"
-    },
-    {
       "ref": "owasp-nodejs-goat@1.3.0|has@1.0.3",
       "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|function-bind@1.1.1"
+        "owasp-nodejs-goat@1.3.0|function-bind@1.1.2"
       ]
     },
     {
       "ref": "owasp-nodejs-goat@1.3.0|is-callable@1.1.5"
     },
     {
-      "ref": "owasp-nodejs-goat@1.3.0|object-inspect@1.7.0"
-    },
-    {
       "ref": "owasp-nodejs-goat@1.3.0|object.assign@4.1.0",
       "dependsOn": [
         "owasp-nodejs-goat@1.3.0|define-properties@1.1.3",
-        "owasp-nodejs-goat@1.3.0|function-bind@1.1.1",
-        "owasp-nodejs-goat@1.3.0|has-symbols@1.0.1",
+        "owasp-nodejs-goat@1.3.0|function-bind@1.1.2",
+        "owasp-nodejs-goat@1.3.0|has-symbols@1.1.0",
         "owasp-nodejs-goat@1.3.0|object-keys@1.1.1"
       ]
     },
@@ -14458,7 +15429,7 @@
     {
       "ref": "owasp-nodejs-goat@1.3.0|is-symbol@1.0.3",
       "dependsOn": [
-        "owasp-nodejs-goat@1.3.0|has-symbols@1.0.1"
+        "owasp-nodejs-goat@1.3.0|has-symbols@1.1.0"
       ]
     },
     {
@@ -14479,7 +15450,7 @@
         "owasp-nodejs-goat@1.3.0|available-typed-arrays@1.0.2",
         "owasp-nodejs-goat@1.3.0|es-abstract@1.17.5",
         "owasp-nodejs-goat@1.3.0|foreach@2.0.5",
-        "owasp-nodejs-goat@1.3.0|has-symbols@1.0.1"
+        "owasp-nodejs-goat@1.3.0|has-symbols@1.1.0"
       ]
     },
     {
